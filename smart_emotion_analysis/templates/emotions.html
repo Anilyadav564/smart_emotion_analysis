@@ -1,0 +1,105 @@
+{% extends "base.html" %}
+
+{% block title %}Emotion Analysis | AI YouTube Comment Intelligence{% endblock %}
+
+{% block content %}
+<div class="page-header-bar">
+    <div>
+        <h1 class="page-heading">Audience Emotion Analysis</h1>
+        <p class="page-subheading">Fine-grained emotional profiling across Happiness, Surprise, Neutrality, Sadness, Fear, and Anger.</p>
+    </div>
+
+    <div class="action-buttons-group">
+        <a href="/dashboard?session_id={{ session_data.session_id }}" class="btn btn-secondary btn-sm">
+            <span>📊 Back to Dashboard</span>
+        </a>
+    </div>
+</div>
+
+<!-- Dominant Emotion Spotlight Card -->
+<div class="card" style="border-left: 5px solid #f59e0b; background: linear-gradient(to right, var(--bg-card), var(--bg-card-subtle));">
+    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
+        <div style="display: flex; align-items: center; gap: 18px;">
+            <div style="font-size: 3.5rem; line-height: 1;">
+                {% if session_data.metrics.dominant_emotion == 'happiness' %}😊
+                {% elif session_data.metrics.dominant_emotion == 'surprise' %}😲
+                {% elif session_data.metrics.dominant_emotion == 'sadness' %}😔
+                {% elif session_data.metrics.dominant_emotion == 'anger' %}😠
+                {% elif session_data.metrics.dominant_emotion == 'fear' %}😨
+                {% else %}😐
+                {% endif %}
+            </div>
+            <div>
+                <div style="font-size: 0.8rem; text-transform: uppercase; font-weight: 700; color: var(--text-muted); letter-spacing: 0.05em;">
+                    Dominant Audience Emotion
+                </div>
+                <div style="font-size: 2rem; font-weight: 800; color: var(--primary); text-transform: capitalize;">
+                    {{ session_data.metrics.dominant_emotion }}
+                    <span style="font-size: 1.25rem; font-weight: 600; color: var(--text-muted);">
+                        ({{ session_data.metrics.dominant_emotion_percentage }}% share)
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="margin-top: 16px; padding: 14px 18px; background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: var(--radius-sm);">
+        <div style="font-size: 0.75rem; text-transform: uppercase; font-weight: 700; color: var(--text-muted); margin-bottom: 4px;">Dynamic AI Emotional Interpretation</div>
+        <p style="font-size: 0.95rem; color: var(--text-main); line-height: 1.6;">
+            {{ session_data.metrics.emotion_interpretation }}
+        </p>
+    </div>
+</div>
+
+<!-- Chart Card -->
+<div class="card">
+    <div class="card-header">
+        <div>
+            <h3 class="card-title">
+                <span>🎭 Emotion Frequency & Intensity</span>
+            </h3>
+            <p class="card-subtitle">Aggregated keyword signal counts detected in audience reactions</p>
+        </div>
+    </div>
+    <div class="chart-container" style="height: 320px;">
+        <canvas id="detailedEmotionChart"></canvas>
+    </div>
+</div>
+
+<!-- Detailed Emotion Cards Grid -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+    {% set emotions_list = [
+        ('happiness', 'Happiness & Praise', '😊', '#f59e0b', 'Gratitude, excitement, love, enjoyment, learning enthusiasm'),
+        ('surprise', 'Surprise & Awe', '😲', '#8b5cf6', 'Novel insights, mind-blowing techniques, unexpected revelations'),
+        ('neutral', 'Informational / Neutral', '😐', '#64748b', 'Direct inquiries, timestamps, objective technical statements'),
+        ('sadness', 'Sadness & Struggle', '😔', '#3b82f6', 'Troubleshooting difficulty, regret, missed prerequisites'),
+        ('fear', 'Apprehension & Doubt', '😨', '#ec4899', 'Anxiety over exams/interviews, complex code intimidation'),
+        ('anger', 'Frustration & Irritation', '😠', '#ef4444', 'Setup bugs, audio imbalance, rushed pacing friction')
+    ] %}
+
+    {% for emo_key, emo_title, emo_icon, emo_color, emo_desc in emotions_list %}
+    <div class="card" style="margin-bottom: 0; border-top: 4px solid {{ emo_color }};">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;">
+            <div style="display: flex; align-items: center; gap: 8px;">
+                <span style="font-size: 1.3rem;">{{ emo_icon }}</span>
+                <strong style="font-size: 0.95rem;">{{ emo_title }}</strong>
+            </div>
+            <span class="badge" style="background: var(--bg-card-subtle); color: var(--text-main); font-weight: 700;">
+                {{ session_data.metrics.emotion_totals[emo_key] if session_data.metrics.emotion_totals[emo_key] is defined else 0 }} hits
+            </span>
+        </div>
+        <p style="font-size: 0.8rem; color: var(--text-muted); line-height: 1.5;">
+            {{ emo_desc }}
+        </p>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const emotionTotals = {{ session_data.metrics.emotion_totals|tojson }};
+        AppCharts.initEmotionBars('detailedEmotionChart', emotionTotals);
+    });
+</script>
+{% endblock %}

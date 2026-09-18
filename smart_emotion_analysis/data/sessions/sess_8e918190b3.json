@@ -1,0 +1,3390 @@
+{
+  "session_id": "sess_8e918190b3",
+  "video_id": "demo_video",
+  "video_title": "Full-Stack AI Project Tutorial (Demo Data)",
+  "channel_name": "AI Masterclass",
+  "video_info": {
+    "video_id": "demo_video",
+    "title": "Full-Stack AI Project Tutorial (Demo Data)",
+    "channel_title": "AI Masterclass",
+    "thumbnail_url": "",
+    "view_count": 48200,
+    "like_count": 3120,
+    "comment_count": 25
+  },
+  "timestamp": "2026-09-08 22:42:03",
+  "total_comments": 25,
+  "metrics": {
+    "total_comments": 25,
+    "positive_count": 14,
+    "positive_percentage": 56.0,
+    "neutral_count": 4,
+    "neutral_percentage": 16.0,
+    "negative_count": 7,
+    "negative_percentage": 28.0,
+    "toxic_count": 3,
+    "toxicity_percentage": 12.0,
+    "constructive_count": 11,
+    "constructive_percentage": 44.0,
+    "average_quality": 53.6,
+    "dominant_emotion": "happiness",
+    "dominant_emotion_percentage": 36.7,
+    "emotion_totals": {
+      "happiness": 11,
+      "sadness": 0,
+      "anger": 5,
+      "fear": 1,
+      "surprise": 2,
+      "neutral": 11
+    },
+    "emotion_interpretation": "Most viewers responded warmly to the content, with Happiness detected as the dominant emotion (36.7% of emotional signals). Viewers consistently expressed gratitude, enjoyment, and appreciation for the presentation."
+  },
+  "topics": [
+    {
+      "topic": "Explanation",
+      "count": 2,
+      "type": "word"
+    },
+    {
+      "topic": "Project",
+      "count": 2,
+      "type": "word"
+    },
+    {
+      "topic": "Fast",
+      "count": 2,
+      "type": "word"
+    },
+    {
+      "topic": "Tutorial",
+      "count": 2,
+      "type": "word"
+    },
+    {
+      "topic": "Youtube",
+      "count": 2,
+      "type": "word"
+    },
+    {
+      "topic": "Practical",
+      "count": 2,
+      "type": "word"
+    },
+    {
+      "topic": "Minute",
+      "count": 2,
+      "type": "word"
+    },
+    {
+      "topic": "Breakdown",
+      "count": 2,
+      "type": "word"
+    },
+    {
+      "topic": "Between",
+      "count": 2,
+      "type": "word"
+    },
+    {
+      "topic": "Demo",
+      "count": 2,
+      "type": "word"
+    }
+  ],
+  "insights": {
+    "audience_mood": "Solid healthy audience reception (56.0% positive, 16.0% neutral). General feedback is constructive and engaged.",
+    "mood_status": "Good",
+    "what_viewers_loved": [
+      "Crystal clear explanations and easy-to-follow pacing",
+      "Visual architecture breakdowns and illustrative diagrams",
+      "Practical, hands-on coding demonstrations",
+      "High real-world relevance for portfolios and academic projects",
+      "Concise delivery without unnecessary fluff or self-promotion"
+    ],
+    "common_complaints": [
+      "Pacing in certain intermediate steps felt rushed for beginners",
+      "Audio equalization or background music volume inconsistencies",
+      "Video length felt slightly extended for busy viewers",
+      "Requests for direct source code, repository links, or starter files",
+      "Setup / environment dependency issues experienced by viewers"
+    ],
+    "potential_problems": [
+      "Elevated toxicity rate (12.0%): Consider moderating abusive comments or enabling strict filter rules.",
+      "High negative sentiment (28.0%): Audience confusion or discontent indicates a need for pinned clarification comments."
+    ],
+    "recommendations": [
+      "Normalize microphone volume and dial down background music during detailed voiceovers.",
+      "Pin a comment with links to the GitHub repository, dependencies list, and documentation.",
+      "Double-down on practical, real-world demos \u2014 viewers consistently cite this as your strongest differentiator."
+    ]
+  },
+  "best_comments": [
+    {
+      "comment_id": "c_98ce2c30",
+      "author": "FrontendNinja",
+      "comment_text": "Love the clean design and dark mode! Can we get the GitHub repository link for the starter templates mentioned in the video?",
+      "cleaned_text": "love the clean design and dark mode can we get the github repository link for the starter templates mentioned in the video",
+      "likes": 156,
+      "reply_count": 5,
+      "published_at": "2026-09-02 15:20",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.743,
+        "pos": 0.257,
+        "compound": 0.7845
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 73,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 81.1,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_d095a7a2",
+      "author": "ElenaR_Dev",
+      "comment_text": "At minute 14:20 the microphone volume suddenly dropped. Great content as always, but please check the audio levels in post-production!",
+      "cleaned_text": "at minute the microphone volume suddenly dropped great content as always but please check the audio levels in postproduction",
+      "likes": 98,
+      "reply_count": 3,
+      "published_at": "2026-09-02 13:40",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.756,
+        "pos": 0.244,
+        "compound": 0.6705
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 80,
+        "quality_grade": "Good",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 81.0,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_fc2d93d8",
+      "author": "DevJourney",
+      "comment_text": "The video was really useful overall, but the explanation of step 3 at 08:45 was a bit too fast. Could you consider doing a separate deep dive on authentication next time?",
+      "cleaned_text": "the video was really useful overall but the explanation of step at was a bit too fast could you consider doing a separate deep dive on authentication next time",
+      "likes": 189,
+      "reply_count": 8,
+      "published_at": "2026-09-02 11:30",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.925,
+        "pos": 0.075,
+        "compound": 0.2724
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 89,
+        "quality_grade": "Good",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 80.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_7d022e7e",
+      "author": "DataGeek",
+      "comment_text": "Would be better if you added a comparison between rule-based VADER and transformer models like RoBERTa in a future episode.",
+      "cleaned_text": "would be better if you added a comparison between rulebased vader and transformer models like roberta in a future episode",
+      "likes": 125,
+      "reply_count": 4,
+      "published_at": "2026-09-02 21:10",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.748,
+        "pos": 0.252,
+        "compound": 0.6597
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 71,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 77.9,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_982b1720",
+      "author": "BugHunter",
+      "comment_text": "Notice a small bug at 22:15 when parsing CSV with comma inside quotes, but you fixed it right away. Excellent debugging demo!",
+      "cleaned_text": "notice a small bug at when parsing csv with comma inside quotes but you fixed it right away excellent debugging demo",
+      "likes": 73,
+      "reply_count": 1,
+      "published_at": "2026-09-03 01:20",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.79,
+        "pos": 0.21,
+        "compound": 0.7227
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 71,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 77.5,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_874c4e7e",
+      "author": "StudentScholar",
+      "comment_text": "This literally saved my final year project submission! My professor was amazed by the sentiment analytics demo. Thank you a thousand times!",
+      "cleaned_text": "this literally saved my final year project submission my professor was amazed by the sentiment analytics demo thank you a thousand times",
+      "likes": 210,
+      "reply_count": 9,
+      "published_at": "2026-09-02 19:15",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.679,
+        "pos": 0.321,
+        "compound": 0.8176
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 1,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 65,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 67.2,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_65d49ded",
+      "author": "CriticalThinker",
+      "comment_text": "The video was informative, but 35 minutes is too long for this concept. A concise 15-minute summary would be much more accessible for beginners.",
+      "cleaned_text": "the video was informative but minutes is too long for this concept a concise minute summary would be much more accessible for beginners",
+      "likes": 115,
+      "reply_count": 8,
+      "published_at": "2026-09-03 06:15",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 68,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 66.6,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_94f5cc1d",
+      "author": "Sarah_T",
+      "comment_text": "Could you provide subtitles or transcripts in Spanish? We have a large student study group following your series from Latin America.",
+      "cleaned_text": "could you provide subtitles or transcripts in spanish we have a large student study group following your series from latin america",
+      "likes": 84,
+      "reply_count": 6,
+      "published_at": "2026-09-03 03:10",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 67,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 65.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_81c09749",
+      "author": "CodeCrafter_99",
+      "comment_text": "Your explanation of the project was incredibly clear and well paced! I finally understood how the state pipeline works after struggling with it for days. Thank you so much!",
+      "cleaned_text": "your explanation of the project was incredibly clear and well paced i finally understood how the state pipeline works after struggling with it for days thank you so much",
+      "likes": 342,
+      "reply_count": 14,
+      "published_at": "2026-09-02 10:15",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.081,
+        "neu": 0.695,
+        "pos": 0.224,
+        "compound": 0.6068
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 2,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 65,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 65.1,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_9f5a38d7",
+      "author": "AudioCritic",
+      "comment_text": "The background music was slightly distracting between 04:00 and 07:00, but the coding walkthrough itself was top notch.",
+      "cleaned_text": "the background music was slightly distracting between and but the coding walkthrough itself was top notch",
+      "likes": 47,
+      "reply_count": 1,
+      "published_at": "2026-09-02 17:10",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.082,
+        "neu": 0.793,
+        "pos": 0.125,
+        "compound": 0.1893
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 63,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 65.1,
+      "is_favorite": false
+    }
+  ],
+  "constructive_comments": [
+    {
+      "comment_id": "c_fc2d93d8",
+      "author": "DevJourney",
+      "comment_text": "The video was really useful overall, but the explanation of step 3 at 08:45 was a bit too fast. Could you consider doing a separate deep dive on authentication next time?",
+      "cleaned_text": "the video was really useful overall but the explanation of step at was a bit too fast could you consider doing a separate deep dive on authentication next time",
+      "likes": 189,
+      "reply_count": 8,
+      "published_at": "2026-09-02 11:30",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.925,
+        "pos": 0.075,
+        "compound": 0.2724
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 89,
+        "quality_grade": "Good",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 80.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_d095a7a2",
+      "author": "ElenaR_Dev",
+      "comment_text": "At minute 14:20 the microphone volume suddenly dropped. Great content as always, but please check the audio levels in post-production!",
+      "cleaned_text": "at minute the microphone volume suddenly dropped great content as always but please check the audio levels in postproduction",
+      "likes": 98,
+      "reply_count": 3,
+      "published_at": "2026-09-02 13:40",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.756,
+        "pos": 0.244,
+        "compound": 0.6705
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 80,
+        "quality_grade": "Good",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 81.0,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_98ce2c30",
+      "author": "FrontendNinja",
+      "comment_text": "Love the clean design and dark mode! Can we get the GitHub repository link for the starter templates mentioned in the video?",
+      "cleaned_text": "love the clean design and dark mode can we get the github repository link for the starter templates mentioned in the video",
+      "likes": 156,
+      "reply_count": 5,
+      "published_at": "2026-09-02 15:20",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.743,
+        "pos": 0.257,
+        "compound": 0.7845
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 73,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 81.1,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_7d022e7e",
+      "author": "DataGeek",
+      "comment_text": "Would be better if you added a comparison between rule-based VADER and transformer models like RoBERTa in a future episode.",
+      "cleaned_text": "would be better if you added a comparison between rulebased vader and transformer models like roberta in a future episode",
+      "likes": 125,
+      "reply_count": 4,
+      "published_at": "2026-09-02 21:10",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.748,
+        "pos": 0.252,
+        "compound": 0.6597
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 71,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 77.9,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_982b1720",
+      "author": "BugHunter",
+      "comment_text": "Notice a small bug at 22:15 when parsing CSV with comma inside quotes, but you fixed it right away. Excellent debugging demo!",
+      "cleaned_text": "notice a small bug at when parsing csv with comma inside quotes but you fixed it right away excellent debugging demo",
+      "likes": 73,
+      "reply_count": 1,
+      "published_at": "2026-09-03 01:20",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.79,
+        "pos": 0.21,
+        "compound": 0.7227
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 71,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 77.5,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_65d49ded",
+      "author": "CriticalThinker",
+      "comment_text": "The video was informative, but 35 minutes is too long for this concept. A concise 15-minute summary would be much more accessible for beginners.",
+      "cleaned_text": "the video was informative but minutes is too long for this concept a concise minute summary would be much more accessible for beginners",
+      "likes": 115,
+      "reply_count": 8,
+      "published_at": "2026-09-03 06:15",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 68,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 66.6,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_94f5cc1d",
+      "author": "Sarah_T",
+      "comment_text": "Could you provide subtitles or transcripts in Spanish? We have a large student study group following your series from Latin America.",
+      "cleaned_text": "could you provide subtitles or transcripts in spanish we have a large student study group following your series from latin america",
+      "likes": 84,
+      "reply_count": 6,
+      "published_at": "2026-09-03 03:10",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 67,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 65.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_97c41d6f",
+      "author": "CuriousCoder",
+      "comment_text": "How do I deploy this to AWS or Docker? What would be the performance impact if we have over 10,000 requests per second?",
+      "cleaned_text": "how do i deploy this to aws or docker what would be the performance impact if we have over requests per second",
+      "likes": 64,
+      "reply_count": 2,
+      "published_at": "2026-09-02 16:00",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 66,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 64.3,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_f8731259",
+      "author": "Sam_V",
+      "comment_text": "Timestamp 12:40 was mind-blowing! I had no idea Python could handle batch data processing so cleanly without external heavy dependencies.",
+      "cleaned_text": "timestamp was mindblowing i had no idea python could handle batch data processing so cleanly without external heavy dependencies",
+      "likes": 88,
+      "reply_count": 2,
+      "published_at": "2026-09-02 20:00",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.115,
+        "neu": 0.885,
+        "pos": 0.0,
+        "compound": -0.296
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 63,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 59.5,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_9f5a38d7",
+      "author": "AudioCritic",
+      "comment_text": "The background music was slightly distracting between 04:00 and 07:00, but the coding walkthrough itself was top notch.",
+      "cleaned_text": "the background music was slightly distracting between and but the coding walkthrough itself was top notch",
+      "likes": 47,
+      "reply_count": 1,
+      "published_at": "2026-09-02 17:10",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.082,
+        "neu": 0.793,
+        "pos": 0.125,
+        "compound": 0.1893
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 63,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 65.1,
+      "is_favorite": false
+    }
+  ],
+  "most_engaged": [
+    {
+      "comment_id": "c_81c09749",
+      "author": "CodeCrafter_99",
+      "comment_text": "Your explanation of the project was incredibly clear and well paced! I finally understood how the state pipeline works after struggling with it for days. Thank you so much!",
+      "cleaned_text": "your explanation of the project was incredibly clear and well paced i finally understood how the state pipeline works after struggling with it for days thank you so much",
+      "likes": 342,
+      "reply_count": 14,
+      "published_at": "2026-09-02 10:15",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.081,
+        "neu": 0.695,
+        "pos": 0.224,
+        "compound": 0.6068
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 2,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 65,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 65.1,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_a63680ea",
+      "author": "TechEnthusiast_Pro",
+      "comment_text": "Best tutorial on this topic on YouTube hands down! The visual architecture diagrams and practical code examples made all the difference.",
+      "cleaned_text": "best tutorial on this topic on youtube hands down the visual architecture diagrams and practical code examples made all the difference",
+      "likes": 275,
+      "reply_count": 6,
+      "published_at": "2026-09-02 12:05",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.826,
+        "pos": 0.174,
+        "compound": 0.6369
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 64,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 64.8,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_874c4e7e",
+      "author": "StudentScholar",
+      "comment_text": "This literally saved my final year project submission! My professor was amazed by the sentiment analytics demo. Thank you a thousand times!",
+      "cleaned_text": "this literally saved my final year project submission my professor was amazed by the sentiment analytics demo thank you a thousand times",
+      "likes": 210,
+      "reply_count": 9,
+      "published_at": "2026-09-02 19:15",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.679,
+        "pos": 0.321,
+        "compound": 0.8176
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 1,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 65,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 67.2,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_fc2d93d8",
+      "author": "DevJourney",
+      "comment_text": "The video was really useful overall, but the explanation of step 3 at 08:45 was a bit too fast. Could you consider doing a separate deep dive on authentication next time?",
+      "cleaned_text": "the video was really useful overall but the explanation of step at was a bit too fast could you consider doing a separate deep dive on authentication next time",
+      "likes": 189,
+      "reply_count": 8,
+      "published_at": "2026-09-02 11:30",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.925,
+        "pos": 0.075,
+        "compound": 0.2724
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 89,
+        "quality_grade": "Good",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 80.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_5a784819",
+      "author": "Jordan_K",
+      "comment_text": "Honestly one of the rare videos where no time is wasted on self-promotion. Straight to the practical knowledge.",
+      "cleaned_text": "honestly one of the rare videos where no time is wasted on selfpromotion straight to the practical knowledge",
+      "likes": 178,
+      "reply_count": 5,
+      "published_at": "2026-09-03 00:15",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.222,
+        "neu": 0.576,
+        "pos": 0.202,
+        "compound": -0.128
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 47,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Critical Complaint",
+        "explanation": "Negative audience reaction expressing dissatisfaction or confusion."
+      },
+      "best_score": 45.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_98ce2c30",
+      "author": "FrontendNinja",
+      "comment_text": "Love the clean design and dark mode! Can we get the GitHub repository link for the starter templates mentioned in the video?",
+      "cleaned_text": "love the clean design and dark mode can we get the github repository link for the starter templates mentioned in the video",
+      "likes": 156,
+      "reply_count": 5,
+      "published_at": "2026-09-02 15:20",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.743,
+        "pos": 0.257,
+        "compound": 0.7845
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 73,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 81.1,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_965a246e",
+      "author": "ZenithCoder",
+      "comment_text": "Watching this in 2026, still the most relevant tutorial on YouTube. Thank you creator!",
+      "cleaned_text": "watching this in still the most relevant tutorial on youtube thank you creator",
+      "likes": 140,
+      "reply_count": 3,
+      "published_at": "2026-09-03 05:00",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.828,
+        "pos": 0.172,
+        "compound": 0.3612
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 59,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 56.9,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_7d022e7e",
+      "author": "DataGeek",
+      "comment_text": "Would be better if you added a comparison between rule-based VADER and transformer models like RoBERTa in a future episode.",
+      "cleaned_text": "would be better if you added a comparison between rulebased vader and transformer models like roberta in a future episode",
+      "likes": 125,
+      "reply_count": 4,
+      "published_at": "2026-09-02 21:10",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.748,
+        "pos": 0.252,
+        "compound": 0.6597
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 71,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 77.9,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_65d49ded",
+      "author": "CriticalThinker",
+      "comment_text": "The video was informative, but 35 minutes is too long for this concept. A concise 15-minute summary would be much more accessible for beginners.",
+      "cleaned_text": "the video was informative but minutes is too long for this concept a concise minute summary would be much more accessible for beginners",
+      "likes": 115,
+      "reply_count": 8,
+      "published_at": "2026-09-03 06:15",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 68,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 66.6,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_ad25171e",
+      "author": "PythonistaAlex",
+      "comment_text": "I was afraid this was going to be overwhelming, but your step-by-step breakdown made it feel effortless. So happy I found your channel!",
+      "cleaned_text": "i was afraid this was going to be overwhelming but your stepbystep breakdown made it feel effortless so happy i found your channel",
+      "likes": 112,
+      "reply_count": 4,
+      "published_at": "2026-09-02 16:45",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.752,
+        "pos": 0.248,
+        "compound": 0.823
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 1,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 63,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 64.9,
+      "is_favorite": false
+    }
+  ],
+  "most_positive": [
+    {
+      "comment_id": "c_ad25171e",
+      "author": "PythonistaAlex",
+      "comment_text": "I was afraid this was going to be overwhelming, but your step-by-step breakdown made it feel effortless. So happy I found your channel!",
+      "cleaned_text": "i was afraid this was going to be overwhelming but your stepbystep breakdown made it feel effortless so happy i found your channel",
+      "likes": 112,
+      "reply_count": 4,
+      "published_at": "2026-09-02 16:45",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.752,
+        "pos": 0.248,
+        "compound": 0.823
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 1,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 63,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 64.9,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_874c4e7e",
+      "author": "StudentScholar",
+      "comment_text": "This literally saved my final year project submission! My professor was amazed by the sentiment analytics demo. Thank you a thousand times!",
+      "cleaned_text": "this literally saved my final year project submission my professor was amazed by the sentiment analytics demo thank you a thousand times",
+      "likes": 210,
+      "reply_count": 9,
+      "published_at": "2026-09-02 19:15",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.679,
+        "pos": 0.321,
+        "compound": 0.8176
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 1,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 65,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 67.2,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_fba86d82",
+      "author": "MayaL",
+      "comment_text": "I was surprised how fast the analysis ran on 5,000 comments. Super responsive UI and smooth experience!",
+      "cleaned_text": "i was surprised how fast the analysis ran on comments super responsive ui and smooth experience",
+      "likes": 94,
+      "reply_count": 3,
+      "published_at": "2026-09-02 22:45",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.591,
+        "pos": 0.409,
+        "compound": 0.8074
+      },
+      "primary_emotion": "surprise",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 1,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 62,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 63.8,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_98ce2c30",
+      "author": "FrontendNinja",
+      "comment_text": "Love the clean design and dark mode! Can we get the GitHub repository link for the starter templates mentioned in the video?",
+      "cleaned_text": "love the clean design and dark mode can we get the github repository link for the starter templates mentioned in the video",
+      "likes": 156,
+      "reply_count": 5,
+      "published_at": "2026-09-02 15:20",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.743,
+        "pos": 0.257,
+        "compound": 0.7845
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 73,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 81.1,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_982b1720",
+      "author": "BugHunter",
+      "comment_text": "Notice a small bug at 22:15 when parsing CSV with comma inside quotes, but you fixed it right away. Excellent debugging demo!",
+      "cleaned_text": "notice a small bug at when parsing csv with comma inside quotes but you fixed it right away excellent debugging demo",
+      "likes": 73,
+      "reply_count": 1,
+      "published_at": "2026-09-03 01:20",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.79,
+        "pos": 0.21,
+        "compound": 0.7227
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 71,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 77.5,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_d095a7a2",
+      "author": "ElenaR_Dev",
+      "comment_text": "At minute 14:20 the microphone volume suddenly dropped. Great content as always, but please check the audio levels in post-production!",
+      "cleaned_text": "at minute the microphone volume suddenly dropped great content as always but please check the audio levels in postproduction",
+      "likes": 98,
+      "reply_count": 3,
+      "published_at": "2026-09-02 13:40",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.756,
+        "pos": 0.244,
+        "compound": 0.6705
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 80,
+        "quality_grade": "Good",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 81.0,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_7d022e7e",
+      "author": "DataGeek",
+      "comment_text": "Would be better if you added a comparison between rule-based VADER and transformer models like RoBERTa in a future episode.",
+      "cleaned_text": "would be better if you added a comparison between rulebased vader and transformer models like roberta in a future episode",
+      "likes": 125,
+      "reply_count": 4,
+      "published_at": "2026-09-02 21:10",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.748,
+        "pos": 0.252,
+        "compound": 0.6597
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 71,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 77.9,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_a63680ea",
+      "author": "TechEnthusiast_Pro",
+      "comment_text": "Best tutorial on this topic on YouTube hands down! The visual architecture diagrams and practical code examples made all the difference.",
+      "cleaned_text": "best tutorial on this topic on youtube hands down the visual architecture diagrams and practical code examples made all the difference",
+      "likes": 275,
+      "reply_count": 6,
+      "published_at": "2026-09-02 12:05",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.826,
+        "pos": 0.174,
+        "compound": 0.6369
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 64,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 64.8,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_bef5d070",
+      "author": "QuickCommenter",
+      "comment_text": "Great video!",
+      "cleaned_text": "great video",
+      "likes": 18,
+      "reply_count": 0,
+      "published_at": "2026-09-02 21:40",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.196,
+        "pos": 0.804,
+        "compound": 0.6249
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 35,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 46.0,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_81c09749",
+      "author": "CodeCrafter_99",
+      "comment_text": "Your explanation of the project was incredibly clear and well paced! I finally understood how the state pipeline works after struggling with it for days. Thank you so much!",
+      "cleaned_text": "your explanation of the project was incredibly clear and well paced i finally understood how the state pipeline works after struggling with it for days thank you so much",
+      "likes": 342,
+      "reply_count": 14,
+      "published_at": "2026-09-02 10:15",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.081,
+        "neu": 0.695,
+        "pos": 0.224,
+        "compound": 0.6068
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 2,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 65,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 65.1,
+      "is_favorite": false
+    }
+  ],
+  "negative_comments": {
+    "constructive_criticism": [
+      {
+        "comment_id": "c_f8731259",
+        "author": "Sam_V",
+        "comment_text": "Timestamp 12:40 was mind-blowing! I had no idea Python could handle batch data processing so cleanly without external heavy dependencies.",
+        "cleaned_text": "timestamp was mindblowing i had no idea python could handle batch data processing so cleanly without external heavy dependencies",
+        "likes": 88,
+        "reply_count": 2,
+        "published_at": "2026-09-02 20:00",
+        "updated_at": "",
+        "video_id": "demo_video",
+        "sentiment": "Negative",
+        "sentiment_scores": {
+          "neg": 0.115,
+          "neu": 0.885,
+          "pos": 0.0,
+          "compound": -0.296
+        },
+        "primary_emotion": "neutral",
+        "emotion_scores": {
+          "happiness": 0,
+          "sadness": 0,
+          "anger": 0,
+          "fear": 0,
+          "surprise": 0,
+          "neutral": 1
+        },
+        "toxicity": {
+          "is_toxic": false,
+          "toxicity_score": 0.0,
+          "status": "Safe",
+          "categories": [],
+          "primary_category": "Non-toxic"
+        },
+        "quality": {
+          "quality_score": 63,
+          "quality_grade": "Average",
+          "is_constructive": true,
+          "feedback_type": "Constructive Feedback",
+          "explanation": "Actionable critique or improvement suggestion with specific context."
+        },
+        "best_score": 59.5,
+        "is_favorite": false
+      },
+      {
+        "comment_id": "c_9723da08",
+        "author": "FrustratedNewbie",
+        "comment_text": "I am so frustrated because I keep getting ModuleNotFoundError on line 12. Could someone please tell me which pip package I need to install?",
+        "cleaned_text": "i am so frustrated because i keep getting modulenotfounderror on line could someone please tell me which pip package i need to install",
+        "likes": 35,
+        "reply_count": 11,
+        "published_at": "2026-09-02 20:30",
+        "updated_at": "",
+        "video_id": "demo_video",
+        "sentiment": "Negative",
+        "sentiment_scores": {
+          "neg": 0.154,
+          "neu": 0.75,
+          "pos": 0.096,
+          "compound": -0.3384
+        },
+        "primary_emotion": "anger",
+        "emotion_scores": {
+          "happiness": 0,
+          "sadness": 0,
+          "anger": 1,
+          "fear": 0,
+          "surprise": 0,
+          "neutral": 0
+        },
+        "toxicity": {
+          "is_toxic": false,
+          "toxicity_score": 0.0,
+          "status": "Safe",
+          "categories": [],
+          "primary_category": "Non-toxic"
+        },
+        "quality": {
+          "quality_score": 60,
+          "quality_grade": "Average",
+          "is_constructive": true,
+          "feedback_type": "Constructive Feedback",
+          "explanation": "Actionable critique or improvement suggestion with specific context."
+        },
+        "best_score": 55.3,
+        "is_favorite": false
+      }
+    ],
+    "critical_complaints": [
+      {
+        "comment_id": "c_0baf454d",
+        "author": "RandomUser123",
+        "comment_text": "This video is completely useless and a waste of time.",
+        "cleaned_text": "this video is completely useless and a waste of time",
+        "likes": 4,
+        "reply_count": 7,
+        "published_at": "2026-09-02 14:10",
+        "updated_at": "",
+        "video_id": "demo_video",
+        "sentiment": "Negative",
+        "sentiment_scores": {
+          "neg": 0.468,
+          "neu": 0.532,
+          "pos": 0.0,
+          "compound": -0.7316
+        },
+        "primary_emotion": "anger",
+        "emotion_scores": {
+          "happiness": 0,
+          "sadness": 0,
+          "anger": 1,
+          "fear": 0,
+          "surprise": 0,
+          "neutral": 0
+        },
+        "toxicity": {
+          "is_toxic": false,
+          "toxicity_score": 0.0,
+          "status": "Safe",
+          "categories": [],
+          "primary_category": "Non-toxic"
+        },
+        "quality": {
+          "quality_score": 36,
+          "quality_grade": "Low",
+          "is_constructive": false,
+          "feedback_type": "Critical Complaint",
+          "explanation": "Negative audience reaction expressing dissatisfaction or confusion."
+        },
+        "best_score": 22.6,
+        "is_favorite": false
+      },
+      {
+        "comment_id": "c_5a784819",
+        "author": "Jordan_K",
+        "comment_text": "Honestly one of the rare videos where no time is wasted on self-promotion. Straight to the practical knowledge.",
+        "cleaned_text": "honestly one of the rare videos where no time is wasted on selfpromotion straight to the practical knowledge",
+        "likes": 178,
+        "reply_count": 5,
+        "published_at": "2026-09-03 00:15",
+        "updated_at": "",
+        "video_id": "demo_video",
+        "sentiment": "Negative",
+        "sentiment_scores": {
+          "neg": 0.222,
+          "neu": 0.576,
+          "pos": 0.202,
+          "compound": -0.128
+        },
+        "primary_emotion": "neutral",
+        "emotion_scores": {
+          "happiness": 0,
+          "sadness": 0,
+          "anger": 0,
+          "fear": 0,
+          "surprise": 0,
+          "neutral": 1
+        },
+        "toxicity": {
+          "is_toxic": false,
+          "toxicity_score": 0.0,
+          "status": "Safe",
+          "categories": [],
+          "primary_category": "Non-toxic"
+        },
+        "quality": {
+          "quality_score": 47,
+          "quality_grade": "Low",
+          "is_constructive": false,
+          "feedback_type": "Critical Complaint",
+          "explanation": "Negative audience reaction expressing dissatisfaction or confusion."
+        },
+        "best_score": 45.4,
+        "is_favorite": false
+      }
+    ],
+    "toxic_comments": [
+      {
+        "comment_id": "c_0d7a3764",
+        "author": "AngryViewer99",
+        "comment_text": "You are an idiot who knows nothing about programming. Delete your channel and get lost.",
+        "cleaned_text": "you are an idiot who knows nothing about programming delete your channel and get lost",
+        "likes": 1,
+        "reply_count": 12,
+        "published_at": "2026-09-02 14:55",
+        "updated_at": "",
+        "video_id": "demo_video",
+        "sentiment": "Negative",
+        "sentiment_scores": {
+          "neg": 0.301,
+          "neu": 0.699,
+          "pos": 0.0,
+          "compound": -0.6808
+        },
+        "primary_emotion": "neutral",
+        "emotion_scores": {
+          "happiness": 0,
+          "sadness": 0,
+          "anger": 0,
+          "fear": 0,
+          "surprise": 0,
+          "neutral": 1
+        },
+        "toxicity": {
+          "is_toxic": true,
+          "toxicity_score": 1.0,
+          "status": "Toxic",
+          "categories": [
+            "insult",
+            "harassment"
+          ],
+          "primary_category": "Insult"
+        },
+        "quality": {
+          "quality_score": 0,
+          "quality_grade": "Very Low",
+          "is_constructive": false,
+          "feedback_type": "Toxic/Abusive",
+          "explanation": "Comment contains offensive, hostile, or abusive language."
+        },
+        "best_score": -53.4,
+        "is_favorite": false
+      },
+      {
+        "comment_id": "c_25515e20",
+        "author": "TrollAccount",
+        "comment_text": "What a piece of garbage trash video. Stupid presenter.",
+        "cleaned_text": "what a piece of garbage trash video stupid presenter",
+        "likes": 0,
+        "reply_count": 9,
+        "published_at": "2026-09-02 18:00",
+        "updated_at": "",
+        "video_id": "demo_video",
+        "sentiment": "Negative",
+        "sentiment_scores": {
+          "neg": 0.327,
+          "neu": 0.673,
+          "pos": 0.0,
+          "compound": -0.5267
+        },
+        "primary_emotion": "anger",
+        "emotion_scores": {
+          "happiness": 0,
+          "sadness": 0,
+          "anger": 3,
+          "fear": 0,
+          "surprise": 0,
+          "neutral": 0
+        },
+        "toxicity": {
+          "is_toxic": true,
+          "toxicity_score": 0.85,
+          "status": "Toxic",
+          "categories": [
+            "insult"
+          ],
+          "primary_category": "Insult"
+        },
+        "quality": {
+          "quality_score": 0,
+          "quality_grade": "Very Low",
+          "is_constructive": false,
+          "feedback_type": "Toxic/Abusive",
+          "explanation": "Comment contains offensive, hostile, or abusive language."
+        },
+        "best_score": -43.9,
+        "is_favorite": false
+      },
+      {
+        "comment_id": "c_8ffbc42d",
+        "author": "HateSpammer",
+        "comment_text": "shut up and stop posting forever you pathetic loser",
+        "cleaned_text": "shut up and stop posting forever you pathetic loser",
+        "likes": 0,
+        "reply_count": 15,
+        "published_at": "2026-09-03 02:00",
+        "updated_at": "",
+        "video_id": "demo_video",
+        "sentiment": "Negative",
+        "sentiment_scores": {
+          "neg": 0.608,
+          "neu": 0.392,
+          "pos": 0.0,
+          "compound": -0.8519
+        },
+        "primary_emotion": "neutral",
+        "emotion_scores": {
+          "happiness": 0,
+          "sadness": 0,
+          "anger": 0,
+          "fear": 0,
+          "surprise": 0,
+          "neutral": 1
+        },
+        "toxicity": {
+          "is_toxic": true,
+          "toxicity_score": 1.0,
+          "status": "Toxic",
+          "categories": [
+            "insult",
+            "harassment"
+          ],
+          "primary_category": "Insult"
+        },
+        "quality": {
+          "quality_score": 0,
+          "quality_grade": "Very Low",
+          "is_constructive": false,
+          "feedback_type": "Toxic/Abusive",
+          "explanation": "Comment contains offensive, hostile, or abusive language."
+        },
+        "best_score": -57.8,
+        "is_favorite": false
+      }
+    ]
+  },
+  "toxic_comments": [
+    {
+      "comment_id": "c_0d7a3764",
+      "author": "AngryViewer99",
+      "comment_text": "You are an idiot who knows nothing about programming. Delete your channel and get lost.",
+      "cleaned_text": "you are an idiot who knows nothing about programming delete your channel and get lost",
+      "likes": 1,
+      "reply_count": 12,
+      "published_at": "2026-09-02 14:55",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.301,
+        "neu": 0.699,
+        "pos": 0.0,
+        "compound": -0.6808
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": true,
+        "toxicity_score": 1.0,
+        "status": "Toxic",
+        "categories": [
+          "insult",
+          "harassment"
+        ],
+        "primary_category": "Insult"
+      },
+      "quality": {
+        "quality_score": 0,
+        "quality_grade": "Very Low",
+        "is_constructive": false,
+        "feedback_type": "Toxic/Abusive",
+        "explanation": "Comment contains offensive, hostile, or abusive language."
+      },
+      "best_score": -53.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_25515e20",
+      "author": "TrollAccount",
+      "comment_text": "What a piece of garbage trash video. Stupid presenter.",
+      "cleaned_text": "what a piece of garbage trash video stupid presenter",
+      "likes": 0,
+      "reply_count": 9,
+      "published_at": "2026-09-02 18:00",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.327,
+        "neu": 0.673,
+        "pos": 0.0,
+        "compound": -0.5267
+      },
+      "primary_emotion": "anger",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 3,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": true,
+        "toxicity_score": 0.85,
+        "status": "Toxic",
+        "categories": [
+          "insult"
+        ],
+        "primary_category": "Insult"
+      },
+      "quality": {
+        "quality_score": 0,
+        "quality_grade": "Very Low",
+        "is_constructive": false,
+        "feedback_type": "Toxic/Abusive",
+        "explanation": "Comment contains offensive, hostile, or abusive language."
+      },
+      "best_score": -43.9,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_8ffbc42d",
+      "author": "HateSpammer",
+      "comment_text": "shut up and stop posting forever you pathetic loser",
+      "cleaned_text": "shut up and stop posting forever you pathetic loser",
+      "likes": 0,
+      "reply_count": 15,
+      "published_at": "2026-09-03 02:00",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.608,
+        "neu": 0.392,
+        "pos": 0.0,
+        "compound": -0.8519
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": true,
+        "toxicity_score": 1.0,
+        "status": "Toxic",
+        "categories": [
+          "insult",
+          "harassment"
+        ],
+        "primary_category": "Insult"
+      },
+      "quality": {
+        "quality_score": 0,
+        "quality_grade": "Very Low",
+        "is_constructive": false,
+        "feedback_type": "Toxic/Abusive",
+        "explanation": "Comment contains offensive, hostile, or abusive language."
+      },
+      "best_score": -57.8,
+      "is_favorite": false
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "c_81c09749",
+      "author": "CodeCrafter_99",
+      "comment_text": "Your explanation of the project was incredibly clear and well paced! I finally understood how the state pipeline works after struggling with it for days. Thank you so much!",
+      "cleaned_text": "your explanation of the project was incredibly clear and well paced i finally understood how the state pipeline works after struggling with it for days thank you so much",
+      "likes": 342,
+      "reply_count": 14,
+      "published_at": "2026-09-02 10:15",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.081,
+        "neu": 0.695,
+        "pos": 0.224,
+        "compound": 0.6068
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 2,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 65,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 65.1,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_fc2d93d8",
+      "author": "DevJourney",
+      "comment_text": "The video was really useful overall, but the explanation of step 3 at 08:45 was a bit too fast. Could you consider doing a separate deep dive on authentication next time?",
+      "cleaned_text": "the video was really useful overall but the explanation of step at was a bit too fast could you consider doing a separate deep dive on authentication next time",
+      "likes": 189,
+      "reply_count": 8,
+      "published_at": "2026-09-02 11:30",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.925,
+        "pos": 0.075,
+        "compound": 0.2724
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 89,
+        "quality_grade": "Good",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 80.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_a63680ea",
+      "author": "TechEnthusiast_Pro",
+      "comment_text": "Best tutorial on this topic on YouTube hands down! The visual architecture diagrams and practical code examples made all the difference.",
+      "cleaned_text": "best tutorial on this topic on youtube hands down the visual architecture diagrams and practical code examples made all the difference",
+      "likes": 275,
+      "reply_count": 6,
+      "published_at": "2026-09-02 12:05",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.826,
+        "pos": 0.174,
+        "compound": 0.6369
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 64,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 64.8,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_d095a7a2",
+      "author": "ElenaR_Dev",
+      "comment_text": "At minute 14:20 the microphone volume suddenly dropped. Great content as always, but please check the audio levels in post-production!",
+      "cleaned_text": "at minute the microphone volume suddenly dropped great content as always but please check the audio levels in postproduction",
+      "likes": 98,
+      "reply_count": 3,
+      "published_at": "2026-09-02 13:40",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.756,
+        "pos": 0.244,
+        "compound": 0.6705
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 80,
+        "quality_grade": "Good",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 81.0,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_0baf454d",
+      "author": "RandomUser123",
+      "comment_text": "This video is completely useless and a waste of time.",
+      "cleaned_text": "this video is completely useless and a waste of time",
+      "likes": 4,
+      "reply_count": 7,
+      "published_at": "2026-09-02 14:10",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.468,
+        "neu": 0.532,
+        "pos": 0.0,
+        "compound": -0.7316
+      },
+      "primary_emotion": "anger",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 1,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 36,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Critical Complaint",
+        "explanation": "Negative audience reaction expressing dissatisfaction or confusion."
+      },
+      "best_score": 22.6,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_0d7a3764",
+      "author": "AngryViewer99",
+      "comment_text": "You are an idiot who knows nothing about programming. Delete your channel and get lost.",
+      "cleaned_text": "you are an idiot who knows nothing about programming delete your channel and get lost",
+      "likes": 1,
+      "reply_count": 12,
+      "published_at": "2026-09-02 14:55",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.301,
+        "neu": 0.699,
+        "pos": 0.0,
+        "compound": -0.6808
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": true,
+        "toxicity_score": 1.0,
+        "status": "Toxic",
+        "categories": [
+          "insult",
+          "harassment"
+        ],
+        "primary_category": "Insult"
+      },
+      "quality": {
+        "quality_score": 0,
+        "quality_grade": "Very Low",
+        "is_constructive": false,
+        "feedback_type": "Toxic/Abusive",
+        "explanation": "Comment contains offensive, hostile, or abusive language."
+      },
+      "best_score": -53.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_98ce2c30",
+      "author": "FrontendNinja",
+      "comment_text": "Love the clean design and dark mode! Can we get the GitHub repository link for the starter templates mentioned in the video?",
+      "cleaned_text": "love the clean design and dark mode can we get the github repository link for the starter templates mentioned in the video",
+      "likes": 156,
+      "reply_count": 5,
+      "published_at": "2026-09-02 15:20",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.743,
+        "pos": 0.257,
+        "compound": 0.7845
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 73,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 81.1,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_97c41d6f",
+      "author": "CuriousCoder",
+      "comment_text": "How do I deploy this to AWS or Docker? What would be the performance impact if we have over 10,000 requests per second?",
+      "cleaned_text": "how do i deploy this to aws or docker what would be the performance impact if we have over requests per second",
+      "likes": 64,
+      "reply_count": 2,
+      "published_at": "2026-09-02 16:00",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 66,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 64.3,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_ad25171e",
+      "author": "PythonistaAlex",
+      "comment_text": "I was afraid this was going to be overwhelming, but your step-by-step breakdown made it feel effortless. So happy I found your channel!",
+      "cleaned_text": "i was afraid this was going to be overwhelming but your stepbystep breakdown made it feel effortless so happy i found your channel",
+      "likes": 112,
+      "reply_count": 4,
+      "published_at": "2026-09-02 16:45",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.752,
+        "pos": 0.248,
+        "compound": 0.823
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 1,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 63,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 64.9,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_9f5a38d7",
+      "author": "AudioCritic",
+      "comment_text": "The background music was slightly distracting between 04:00 and 07:00, but the coding walkthrough itself was top notch.",
+      "cleaned_text": "the background music was slightly distracting between and but the coding walkthrough itself was top notch",
+      "likes": 47,
+      "reply_count": 1,
+      "published_at": "2026-09-02 17:10",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.082,
+        "neu": 0.793,
+        "pos": 0.125,
+        "compound": 0.1893
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 63,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 65.1,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_25515e20",
+      "author": "TrollAccount",
+      "comment_text": "What a piece of garbage trash video. Stupid presenter.",
+      "cleaned_text": "what a piece of garbage trash video stupid presenter",
+      "likes": 0,
+      "reply_count": 9,
+      "published_at": "2026-09-02 18:00",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.327,
+        "neu": 0.673,
+        "pos": 0.0,
+        "compound": -0.5267
+      },
+      "primary_emotion": "anger",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 3,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": true,
+        "toxicity_score": 0.85,
+        "status": "Toxic",
+        "categories": [
+          "insult"
+        ],
+        "primary_category": "Insult"
+      },
+      "quality": {
+        "quality_score": 0,
+        "quality_grade": "Very Low",
+        "is_constructive": false,
+        "feedback_type": "Toxic/Abusive",
+        "explanation": "Comment contains offensive, hostile, or abusive language."
+      },
+      "best_score": -43.9,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_874c4e7e",
+      "author": "StudentScholar",
+      "comment_text": "This literally saved my final year project submission! My professor was amazed by the sentiment analytics demo. Thank you a thousand times!",
+      "cleaned_text": "this literally saved my final year project submission my professor was amazed by the sentiment analytics demo thank you a thousand times",
+      "likes": 210,
+      "reply_count": 9,
+      "published_at": "2026-09-02 19:15",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.679,
+        "pos": 0.321,
+        "compound": 0.8176
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 1,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 65,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 67.2,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_f8731259",
+      "author": "Sam_V",
+      "comment_text": "Timestamp 12:40 was mind-blowing! I had no idea Python could handle batch data processing so cleanly without external heavy dependencies.",
+      "cleaned_text": "timestamp was mindblowing i had no idea python could handle batch data processing so cleanly without external heavy dependencies",
+      "likes": 88,
+      "reply_count": 2,
+      "published_at": "2026-09-02 20:00",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.115,
+        "neu": 0.885,
+        "pos": 0.0,
+        "compound": -0.296
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 63,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 59.5,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_9723da08",
+      "author": "FrustratedNewbie",
+      "comment_text": "I am so frustrated because I keep getting ModuleNotFoundError on line 12. Could someone please tell me which pip package I need to install?",
+      "cleaned_text": "i am so frustrated because i keep getting modulenotfounderror on line could someone please tell me which pip package i need to install",
+      "likes": 35,
+      "reply_count": 11,
+      "published_at": "2026-09-02 20:30",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.154,
+        "neu": 0.75,
+        "pos": 0.096,
+        "compound": -0.3384
+      },
+      "primary_emotion": "anger",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 1,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 60,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 55.3,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_7d022e7e",
+      "author": "DataGeek",
+      "comment_text": "Would be better if you added a comparison between rule-based VADER and transformer models like RoBERTa in a future episode.",
+      "cleaned_text": "would be better if you added a comparison between rulebased vader and transformer models like roberta in a future episode",
+      "likes": 125,
+      "reply_count": 4,
+      "published_at": "2026-09-02 21:10",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.748,
+        "pos": 0.252,
+        "compound": 0.6597
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 71,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 77.9,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_bef5d070",
+      "author": "QuickCommenter",
+      "comment_text": "Great video!",
+      "cleaned_text": "great video",
+      "likes": 18,
+      "reply_count": 0,
+      "published_at": "2026-09-02 21:40",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.196,
+        "pos": 0.804,
+        "compound": 0.6249
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 35,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 46.0,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_7dc7351a",
+      "author": "SpamBot99",
+      "comment_text": "first",
+      "cleaned_text": "first",
+      "likes": 2,
+      "reply_count": 1,
+      "published_at": "2026-09-02 22:00",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 15,
+        "quality_grade": "Very Low",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Low-effort generic word or repeated character spam."
+      },
+      "best_score": 23.9,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_fba86d82",
+      "author": "MayaL",
+      "comment_text": "I was surprised how fast the analysis ran on 5,000 comments. Super responsive UI and smooth experience!",
+      "cleaned_text": "i was surprised how fast the analysis ran on comments super responsive ui and smooth experience",
+      "likes": 94,
+      "reply_count": 3,
+      "published_at": "2026-09-02 22:45",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.591,
+        "pos": 0.409,
+        "compound": 0.8074
+      },
+      "primary_emotion": "surprise",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 1,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 62,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 63.8,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_5a784819",
+      "author": "Jordan_K",
+      "comment_text": "Honestly one of the rare videos where no time is wasted on self-promotion. Straight to the practical knowledge.",
+      "cleaned_text": "honestly one of the rare videos where no time is wasted on selfpromotion straight to the practical knowledge",
+      "likes": 178,
+      "reply_count": 5,
+      "published_at": "2026-09-03 00:15",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.222,
+        "neu": 0.576,
+        "pos": 0.202,
+        "compound": -0.128
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 47,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Critical Complaint",
+        "explanation": "Negative audience reaction expressing dissatisfaction or confusion."
+      },
+      "best_score": 45.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_982b1720",
+      "author": "BugHunter",
+      "comment_text": "Notice a small bug at 22:15 when parsing CSV with comma inside quotes, but you fixed it right away. Excellent debugging demo!",
+      "cleaned_text": "notice a small bug at when parsing csv with comma inside quotes but you fixed it right away excellent debugging demo",
+      "likes": 73,
+      "reply_count": 1,
+      "published_at": "2026-09-03 01:20",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.79,
+        "pos": 0.21,
+        "compound": 0.7227
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 71,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Positive feedback with specific suggestions or thoughtful questions."
+      },
+      "best_score": 77.5,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_8ffbc42d",
+      "author": "HateSpammer",
+      "comment_text": "shut up and stop posting forever you pathetic loser",
+      "cleaned_text": "shut up and stop posting forever you pathetic loser",
+      "likes": 0,
+      "reply_count": 15,
+      "published_at": "2026-09-03 02:00",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.608,
+        "neu": 0.392,
+        "pos": 0.0,
+        "compound": -0.8519
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": true,
+        "toxicity_score": 1.0,
+        "status": "Toxic",
+        "categories": [
+          "insult",
+          "harassment"
+        ],
+        "primary_category": "Insult"
+      },
+      "quality": {
+        "quality_score": 0,
+        "quality_grade": "Very Low",
+        "is_constructive": false,
+        "feedback_type": "Toxic/Abusive",
+        "explanation": "Comment contains offensive, hostile, or abusive language."
+      },
+      "best_score": -57.8,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_94f5cc1d",
+      "author": "Sarah_T",
+      "comment_text": "Could you provide subtitles or transcripts in Spanish? We have a large student study group following your series from Latin America.",
+      "cleaned_text": "could you provide subtitles or transcripts in spanish we have a large student study group following your series from latin america",
+      "likes": 84,
+      "reply_count": 6,
+      "published_at": "2026-09-03 03:10",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 67,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 65.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_50e6f1ec",
+      "author": "Marcus_Dev",
+      "comment_text": "The emotion scoring breakdown gave me an exact picture of how my viewers felt. Absolutely fantastic tool.",
+      "cleaned_text": "the emotion scoring breakdown gave me an exact picture of how my viewers felt absolutely fantastic tool",
+      "likes": 62,
+      "reply_count": 2,
+      "published_at": "2026-09-03 04:30",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.804,
+        "pos": 0.196,
+        "compound": 0.5984
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 58,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 58.0,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_965a246e",
+      "author": "ZenithCoder",
+      "comment_text": "Watching this in 2026, still the most relevant tutorial on YouTube. Thank you creator!",
+      "cleaned_text": "watching this in still the most relevant tutorial on youtube thank you creator",
+      "likes": 140,
+      "reply_count": 3,
+      "published_at": "2026-09-03 05:00",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.828,
+        "pos": 0.172,
+        "compound": 0.3612
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 59,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 56.9,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c_65d49ded",
+      "author": "CriticalThinker",
+      "comment_text": "The video was informative, but 35 minutes is too long for this concept. A concise 15-minute summary would be much more accessible for beginners.",
+      "cleaned_text": "the video was informative but minutes is too long for this concept a concise minute summary would be much more accessible for beginners",
+      "likes": 115,
+      "reply_count": 8,
+      "published_at": "2026-09-03 06:15",
+      "updated_at": "",
+      "video_id": "demo_video",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 68,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 66.6,
+      "is_favorite": false
+    }
+  ]
+}

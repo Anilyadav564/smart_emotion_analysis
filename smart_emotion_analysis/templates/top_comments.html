@@ -1,0 +1,170 @@
+{% extends "base.html" %}
+
+{% block title %}Top Comments | AI YouTube Comment Intelligence{% endblock %}
+
+{% block content %}
+<div class="page-header-bar">
+    <div>
+        <h1 class="page-heading">Top & Curated Comments</h1>
+        <p class="page-subheading">Intelligent curation spotlighting high-value praise, constructive suggestions, and engaged audience discussions.</p>
+    </div>
+
+    <div class="action-buttons-group">
+        <a href="/comments?session_id={{ session_data.session_id }}" class="btn btn-secondary btn-sm">
+            <span>🔍 Open Full Explorer</span>
+        </a>
+    </div>
+</div>
+
+<!-- SECTION 1: 🏆 Best Comments -->
+<div class="card">
+    <div class="card-header">
+        <div>
+            <h3 class="card-title">
+                <span>🏆 Best Overall Comments</span>
+            </h3>
+            <p class="card-subtitle">Ranked by multi-factor algorithmic score (sentiment, quality, readability, engagement, and zero toxicity)</p>
+        </div>
+    </div>
+
+    <div class="comment-card-list">
+        {% for comment in session_data.best_comments %}
+        <div class="comment-card featured-gold">
+            <div class="comment-header">
+                <div class="comment-author-wrap">
+                    <div class="comment-avatar">#{{ loop.index }}</div>
+                    <div>
+                        <span class="comment-author">{{ comment.author }}</span>
+                        <span class="comment-date"> • {{ comment.published_at }}</span>
+                    </div>
+                </div>
+                <div class="comment-tags">
+                    <span class="badge badge-positive">{{ comment.sentiment }}</span>
+                    <span class="badge badge-quality-excellent">Quality: {{ comment.quality.quality_score }}/100</span>
+                    <span class="badge badge-constructive">{{ comment.quality.feedback_type }}</span>
+                </div>
+            </div>
+
+            <p class="comment-text">"{{ comment.comment_text }}"</p>
+
+            <div class="comment-footer">
+                <div style="font-size: 0.8rem; color: var(--text-muted); display: flex; align-items: center; gap: 14px;">
+                    <span>👍 <strong>{{ comment.likes }}</strong> likes</span>
+                    <span>Emotion: <strong style="text-transform: capitalize; color: var(--primary);">{{ comment.primary_emotion }}</strong></span>
+                    <span>Algorithm Score: <strong>{{ comment.best_score }} pts</strong></span>
+                </div>
+                <div class="comment-actions">
+                    <button class="btn btn-secondary btn-sm" onclick="App.copyCommentText(`{{ comment.comment_text|escape }}`)">
+                        📋 Copy
+                    </button>
+                    <button class="btn btn-primary btn-sm" onclick='App.openCommentModal({{ comment|tojson }})'>
+                        🔍 View Detail
+                    </button>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- SECTION 2: 💡 Most Useful Feedback -->
+<div class="card">
+    <div class="card-header">
+        <div>
+            <h3 class="card-title">
+                <span>💡 Most Useful & Constructive Feedback</span>
+            </h3>
+            <p class="card-subtitle">Specific suggestions, timestamps, questions, and actionable improvement notes</p>
+        </div>
+    </div>
+
+    <div class="comment-card-list">
+        {% for comment in session_data.constructive_comments %}
+        <div class="comment-card featured-purple">
+            <div class="comment-header">
+                <div class="comment-author-wrap">
+                    <div class="comment-avatar">💡</div>
+                    <div>
+                        <span class="comment-author">{{ comment.author }}</span>
+                        <span class="comment-date"> • {{ comment.published_at }}</span>
+                    </div>
+                </div>
+                <div class="comment-tags">
+                    <span class="badge badge-constructive">{{ comment.quality.feedback_type }}</span>
+                    <span class="badge badge-quality-good">Quality: {{ comment.quality.quality_score }}/100</span>
+                </div>
+            </div>
+
+            <p class="comment-text">"{{ comment.comment_text }}"</p>
+
+            <div class="comment-footer">
+                <div style="font-size: 0.8rem; color: var(--text-muted);">
+                    <span>👍 {{ comment.likes }} likes</span> •
+                    <span>Note: <em>{{ comment.quality.explanation }}</em></span>
+                </div>
+                <div class="comment-actions">
+                    <button class="btn btn-secondary btn-sm" onclick="App.copyCommentText(`{{ comment.comment_text|escape }}`)">
+                        📋 Copy
+                    </button>
+                    <button class="btn btn-primary btn-sm" onclick='App.openCommentModal({{ comment|tojson }})'>
+                        🔍 View Detail
+                    </button>
+                </div>
+            </div>
+        </div>
+        {% else %}
+        <p style="color: var(--text-muted); font-size: 0.9rem; padding: 16px 0;">No specific constructive feedback identified in this dataset.</p>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- SECTION 3: 🔥 Most Engaged -->
+<div class="card">
+    <div class="card-header">
+        <div>
+            <h3 class="card-title">
+                <span>🔥 Most Engaged by Viewers</span>
+            </h3>
+            <p class="card-subtitle">Ranked strictly by community upvotes and discussion interest</p>
+        </div>
+    </div>
+
+    <div class="comment-card-list">
+        {% for comment in session_data.most_engaged[:5] %}
+        <div class="comment-card">
+            <div class="comment-header">
+                <div class="comment-author-wrap">
+                    <div class="comment-avatar">👍</div>
+                    <div>
+                        <span class="comment-author">{{ comment.author }}</span>
+                        <span class="comment-date"> • {{ comment.published_at }}</span>
+                    </div>
+                </div>
+                <div class="comment-tags">
+                    <span class="badge badge-positive">{{ comment.likes }} Upvotes</span>
+                    <span class="badge {% if comment.sentiment == 'Positive' %}badge-positive{% elif comment.sentiment == 'Negative' %}badge-negative{% else %}badge-neutral{% endif %}">
+                        {{ comment.sentiment }}
+                    </span>
+                </div>
+            </div>
+
+            <p class="comment-text">"{{ comment.comment_text }}"</p>
+
+            <div class="comment-footer">
+                <div style="font-size: 0.8rem; color: var(--text-muted);">
+                    Quality: {{ comment.quality.quality_score }}/100 • Dominant Emotion: {{ comment.primary_emotion }}
+                </div>
+                <div class="comment-actions">
+                    <button class="btn btn-secondary btn-sm" onclick="App.copyCommentText(`{{ comment.comment_text|escape }}`)">
+                        📋 Copy
+                    </button>
+                    <button class="btn btn-primary btn-sm" onclick='App.openCommentModal({{ comment|tojson }})'>
+                        🔍 View Detail
+                    </button>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

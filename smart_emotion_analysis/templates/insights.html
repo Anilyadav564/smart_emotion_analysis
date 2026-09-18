@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+
+{% block title %}AI Insights & Creator Recommendations | Comment AI{% endblock %}
+
+{% block content %}
+<div class="page-header-bar">
+    <div>
+        <h1 class="page-heading">AI Audience Insights & Strategy</h1>
+        <p class="page-subheading">Synthesized executive intelligence derived automatically from real audience signals, comments, and topics.</p>
+    </div>
+
+    <div class="action-buttons-group">
+        <a href="/report?session_id={{ session_data.session_id }}" class="btn btn-primary btn-sm">
+            <span>📑 View Creator Report</span>
+        </a>
+    </div>
+</div>
+
+<!-- Audience Mood Header Card -->
+<div class="card" style="border-left: 5px solid var(--primary); background: linear-gradient(135deg, var(--bg-card), var(--bg-card-subtle));">
+    <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; flex-wrap: wrap; gap: 10px;">
+        <span style="font-size: 0.8rem; font-weight: 700; text-transform: uppercase; color: var(--text-muted); letter-spacing: 0.05em;">
+            Audience Mood Diagnostic
+        </span>
+        <span class="badge {% if session_data.insights.mood_status == 'Excellent' %}badge-positive{% elif session_data.insights.mood_status == 'Good' %}badge-constructive{% else %}badge-neutral{% endif %}" style="font-size: 0.85rem; padding: 4px 12px;">
+            Status: {{ session_data.insights.mood_status }}
+        </span>
+    </div>
+    <h2 style="font-size: 1.35rem; font-weight: 700; color: var(--text-main); margin-bottom: 8px;">
+        "{{ session_data.insights.audience_mood }}"
+    </h2>
+    <p style="font-size: 0.875rem; color: var(--text-muted);">
+        Based on {{ session_data.metrics.total_comments }} analyzed comments with {{ session_data.metrics.positive_percentage }}% positive, {{ session_data.metrics.neutral_percentage }}% neutral, and {{ session_data.metrics.negative_percentage }}% negative polarity.
+    </p>
+</div>
+
+<!-- Grid of Key Themes -->
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 24px;">
+    <!-- What Viewers Loved -->
+    <div class="card" style="margin-bottom: 0;">
+        <div class="card-header">
+            <h3 class="card-title" style="color: var(--success);">
+                <span>❤️ What Viewers Loved</span>
+            </h3>
+        </div>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">
+            Recurring positive praise patterns and key aspects that resonated most with the community:
+        </p>
+        <ul style="list-style: none; display: flex; flex-direction: column; gap: 12px;">
+            {% for item in session_data.insights.what_viewers_loved %}
+            <li style="display: flex; align-items: flex-start; gap: 10px; font-size: 0.9rem; line-height: 1.5;">
+                <span style="color: var(--success); font-weight: 800; font-size: 1.1rem;">✓</span>
+                <span>{{ item }}</span>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <!-- Common Friction Points -->
+    <div class="card" style="margin-bottom: 0;">
+        <div class="card-header">
+            <h3 class="card-title" style="color: var(--warning);">
+                <span>⚠️ Common Friction Points & Inquiries</span>
+            </h3>
+        </div>
+        <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">
+            Areas where viewers experienced pacing friction, clarity gaps, or troubleshooting hurdles:
+        </p>
+        <ul style="list-style: none; display: flex; flex-direction: column; gap: 12px;">
+            {% for item in session_data.insights.common_complaints %}
+            <li style="display: flex; align-items: flex-start; gap: 10px; font-size: 0.9rem; line-height: 1.5;">
+                <span style="color: var(--warning); font-weight: 800; font-size: 1.1rem;">!</span>
+                <span>{{ item }}</span>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<!-- Community Health & Potential Problems -->
+<div class="card">
+    <div class="card-header">
+        <h3 class="card-title">
+            <span>🛡️ Community Safety & Potential Risks</span>
+        </h3>
+        <span class="badge {% if session_data.metrics.toxicity_percentage <= 5.0 %}badge-positive{% else %}badge-toxic{% endif %}">
+            Toxicity: {{ session_data.metrics.toxicity_percentage }}%
+        </span>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 10px;">
+        {% for prob in session_data.insights.potential_problems %}
+        <div style="padding: 12px 16px; background: var(--bg-card-subtle); border-radius: var(--radius-sm); font-size: 0.875rem; color: var(--text-main); display: flex; align-items: center; gap: 10px;">
+            <span>ℹ️</span>
+            <span>{{ prob }}</span>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Actionable Creator Recommendations -->
+<div class="card" style="border-top: 4px solid var(--primary);">
+    <div class="card-header">
+        <h3 class="card-title">
+            <span>🚀 Content Suggestions for Your Next Video</span>
+        </h3>
+        <span class="badge badge-constructive">Actionable Strategy</span>
+    </div>
+    <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">
+        High-leverage improvements automatically formulated to boost retention, viewer satisfaction, and engagement:
+    </p>
+
+    <div style="display: flex; flex-direction: column; gap: 12px;">
+        {% for rec in session_data.insights.recommendations %}
+        <div style="display: flex; align-items: flex-start; gap: 12px; background: var(--bg-card-subtle); padding: 14px 18px; border-radius: var(--radius-sm); border: 1px solid var(--border-color);">
+            <div style="width: 26px; height: 26px; border-radius: var(--radius-full); background: var(--primary); color: white; display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 0.8rem; flex-shrink: 0;">
+                {{ loop.index }}
+            </div>
+            <div>
+                <p style="font-size: 0.925rem; font-weight: 600; color: var(--text-main); line-height: 1.5;">
+                    {{ rec }}
+                </p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

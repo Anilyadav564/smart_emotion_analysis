@@ -1,0 +1,642 @@
+{
+  "session_id": "sess_74df1e7deb",
+  "video_id": "vid_music_1",
+  "video_title": "Rick Astley - Classic Hit",
+  "channel_name": "Rick Astley Official",
+  "video_info": {
+    "video_id": "vid_music_1",
+    "title": "Rick Astley - Classic Hit",
+    "channel_title": "Rick Astley Official",
+    "thumbnail_url": "https://i.ytimg.com/vi/vid_music_1/hqdefault.jpg",
+    "view_count": 1450000,
+    "like_count": 92000,
+    "comment_count": 3
+  },
+  "timestamp": "2026-09-08 14:44:11",
+  "total_comments": 3,
+  "metrics": {
+    "total_comments": 3,
+    "positive_count": 3,
+    "positive_percentage": 100.0,
+    "neutral_count": 0,
+    "neutral_percentage": 0.0,
+    "negative_count": 0,
+    "negative_percentage": 0.0,
+    "toxic_count": 0,
+    "toxicity_percentage": 0.0,
+    "constructive_count": 0,
+    "constructive_percentage": 0.0,
+    "average_quality": 51.7,
+    "dominant_emotion": "happiness",
+    "dominant_emotion_percentage": 100.0,
+    "emotion_totals": {
+      "happiness": 5,
+      "sadness": 0,
+      "anger": 0,
+      "fear": 0,
+      "surprise": 0,
+      "neutral": 0
+    },
+    "emotion_interpretation": "Most viewers responded warmly to the content, with Happiness detected as the dominant emotion (100.0% of emotional signals). Viewers consistently expressed gratitude, enjoyment, and appreciation for the presentation."
+  },
+  "topics": [
+    {
+      "topic": "Song",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Brings",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Pure",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Happiness",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Amazing",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Vocals",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Timeless",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Masterpiece",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Wonderful",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Melody",
+      "count": 1,
+      "type": "word"
+    }
+  ],
+  "insights": {
+    "audience_mood": "Exceptionally positive audience sentiment (100.0% positive). The community is highly supportive, appreciative, and enthusiastic.",
+    "mood_status": "Excellent",
+    "what_viewers_loved": [
+      "Engaging soundtrack and sound design"
+    ],
+    "common_complaints": [
+      "No major widespread complaints detected; isolated minor questions only."
+    ],
+    "potential_problems": [
+      "Zero detected toxicity! Comment section community health is exemplary."
+    ],
+    "recommendations": [
+      "Continue the current pacing and structure; viewers find the instructional style highly effective.",
+      "Engage with top constructive comments to foster deeper community retention."
+    ]
+  },
+  "best_comments": [
+    {
+      "comment_id": "c1",
+      "author": "Fan1",
+      "comment_text": "I love this song so much! Brings back pure happiness.",
+      "cleaned_text": "i love this song so much brings back pure happiness",
+      "likes": 50,
+      "reply_count": 0,
+      "published_at": "2026-01-01",
+      "updated_at": "",
+      "video_id": "vid_music_1",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.473,
+        "pos": 0.527,
+        "compound": 0.8316
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 60,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 61.7,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c2",
+      "author": "Fan2",
+      "comment_text": "Amazing vocals, timeless masterpiece and wonderful melody.",
+      "cleaned_text": "amazing vocals timeless masterpiece and wonderful melody",
+      "likes": 30,
+      "reply_count": 0,
+      "published_at": "2026-01-01",
+      "updated_at": "",
+      "video_id": "vid_music_1",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.256,
+        "pos": 0.744,
+        "compound": 0.9118
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 2,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 49,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 57.2,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c3",
+      "author": "Fan3",
+      "comment_text": "Best music video ever made, fantastic artist.",
+      "cleaned_text": "best music video ever made fantastic artist",
+      "likes": 15,
+      "reply_count": 0,
+      "published_at": "2026-01-01",
+      "updated_at": "",
+      "video_id": "vid_music_1",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.391,
+        "pos": 0.609,
+        "compound": 0.8316
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 2,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 46,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 53.1,
+      "is_favorite": false
+    }
+  ],
+  "constructive_comments": [],
+  "most_engaged": [
+    {
+      "comment_id": "c1",
+      "author": "Fan1",
+      "comment_text": "I love this song so much! Brings back pure happiness.",
+      "cleaned_text": "i love this song so much brings back pure happiness",
+      "likes": 50,
+      "reply_count": 0,
+      "published_at": "2026-01-01",
+      "updated_at": "",
+      "video_id": "vid_music_1",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.473,
+        "pos": 0.527,
+        "compound": 0.8316
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 60,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 61.7,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c2",
+      "author": "Fan2",
+      "comment_text": "Amazing vocals, timeless masterpiece and wonderful melody.",
+      "cleaned_text": "amazing vocals timeless masterpiece and wonderful melody",
+      "likes": 30,
+      "reply_count": 0,
+      "published_at": "2026-01-01",
+      "updated_at": "",
+      "video_id": "vid_music_1",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.256,
+        "pos": 0.744,
+        "compound": 0.9118
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 2,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 49,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 57.2,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c3",
+      "author": "Fan3",
+      "comment_text": "Best music video ever made, fantastic artist.",
+      "cleaned_text": "best music video ever made fantastic artist",
+      "likes": 15,
+      "reply_count": 0,
+      "published_at": "2026-01-01",
+      "updated_at": "",
+      "video_id": "vid_music_1",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.391,
+        "pos": 0.609,
+        "compound": 0.8316
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 2,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 46,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 53.1,
+      "is_favorite": false
+    }
+  ],
+  "most_positive": [
+    {
+      "comment_id": "c2",
+      "author": "Fan2",
+      "comment_text": "Amazing vocals, timeless masterpiece and wonderful melody.",
+      "cleaned_text": "amazing vocals timeless masterpiece and wonderful melody",
+      "likes": 30,
+      "reply_count": 0,
+      "published_at": "2026-01-01",
+      "updated_at": "",
+      "video_id": "vid_music_1",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.256,
+        "pos": 0.744,
+        "compound": 0.9118
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 2,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 49,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 57.2,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c1",
+      "author": "Fan1",
+      "comment_text": "I love this song so much! Brings back pure happiness.",
+      "cleaned_text": "i love this song so much brings back pure happiness",
+      "likes": 50,
+      "reply_count": 0,
+      "published_at": "2026-01-01",
+      "updated_at": "",
+      "video_id": "vid_music_1",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.473,
+        "pos": 0.527,
+        "compound": 0.8316
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 60,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 61.7,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c3",
+      "author": "Fan3",
+      "comment_text": "Best music video ever made, fantastic artist.",
+      "cleaned_text": "best music video ever made fantastic artist",
+      "likes": 15,
+      "reply_count": 0,
+      "published_at": "2026-01-01",
+      "updated_at": "",
+      "video_id": "vid_music_1",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.391,
+        "pos": 0.609,
+        "compound": 0.8316
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 2,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 46,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 53.1,
+      "is_favorite": false
+    }
+  ],
+  "negative_comments": {
+    "constructive_criticism": [],
+    "critical_complaints": [],
+    "toxic_comments": []
+  },
+  "toxic_comments": [],
+  "comments": [
+    {
+      "comment_id": "c1",
+      "author": "Fan1",
+      "comment_text": "I love this song so much! Brings back pure happiness.",
+      "cleaned_text": "i love this song so much brings back pure happiness",
+      "likes": 50,
+      "reply_count": 0,
+      "published_at": "2026-01-01",
+      "updated_at": "",
+      "video_id": "vid_music_1",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.473,
+        "pos": 0.527,
+        "compound": 0.8316
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 60,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 61.7,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c2",
+      "author": "Fan2",
+      "comment_text": "Amazing vocals, timeless masterpiece and wonderful melody.",
+      "cleaned_text": "amazing vocals timeless masterpiece and wonderful melody",
+      "likes": 30,
+      "reply_count": 0,
+      "published_at": "2026-01-01",
+      "updated_at": "",
+      "video_id": "vid_music_1",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.256,
+        "pos": 0.744,
+        "compound": 0.9118
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 2,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 49,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 57.2,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c3",
+      "author": "Fan3",
+      "comment_text": "Best music video ever made, fantastic artist.",
+      "cleaned_text": "best music video ever made fantastic artist",
+      "likes": 15,
+      "reply_count": 0,
+      "published_at": "2026-01-01",
+      "updated_at": "",
+      "video_id": "vid_music_1",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.391,
+        "pos": 0.609,
+        "compound": 0.8316
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 2,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 46,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 53.1,
+      "is_favorite": false
+    }
+  ]
+}

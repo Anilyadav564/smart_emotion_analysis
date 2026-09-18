@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+
+{% block title %}Comment Explorer | AI YouTube Comment Intelligence{% endblock %}
+
+{% block content %}
+<div class="page-header-bar">
+    <div>
+        <h1 class="page-heading">Comment Explorer</h1>
+        <p class="page-subheading">Interactive database of all analyzed comments with real-time search, filters, and full AI diagnostics.</p>
+    </div>
+
+    <div class="action-buttons-group">
+        <a href="/api/export/{{ session_data.session_id }}?format=csv" class="btn btn-secondary btn-sm">
+            <span>📥 Export CSV</span>
+        </a>
+        <a href="/api/export/{{ session_data.session_id }}?format=json" class="btn btn-secondary btn-sm">
+            <span>📥 Export JSON</span>
+        </a>
+    </div>
+</div>
+
+<div class="card">
+    <!-- Controls: Search, Filters, Sort -->
+    <div class="explorer-controls">
+        <div class="search-input-wrap">
+            <span class="search-icon-pos">🔍</span>
+            <input type="text" id="commentSearchInput" class="search-input" placeholder="Search comments by keyword or author..." />
+        </div>
+
+        <div class="filter-pills-wrap">
+            <button type="button" class="filter-pill active" data-filter="all">All</button>
+            <button type="button" class="filter-pill" data-filter="positive">Positive</button>
+            <button type="button" class="filter-pill" data-filter="neutral">Neutral</button>
+            <button type="button" class="filter-pill" data-filter="negative">Negative</button>
+            <button type="button" class="filter-pill" data-filter="constructive">💡 Constructive</button>
+            <button type="button" class="filter-pill" data-filter="high_quality">⭐ High Quality</button>
+            <button type="button" class="filter-pill" data-filter="toxic">🚨 Toxic</button>
+        </div>
+
+        <div>
+            <select id="commentSortSelect" class="sort-select">
+                <option value="quality_desc">Sort: Highest Quality</option>
+                <option value="likes_desc">Sort: Most Likes</option>
+                <option value="positive_desc">Sort: Most Positive</option>
+                <option value="negative_desc">Sort: Most Negative</option>
+                <option value="newest">Sort: Newest</option>
+            </select>
+        </div>
+    </div>
+
+    <div style="margin-bottom: 12px; font-size: 0.8rem; color: var(--text-muted);" id="explorerTotalCount">
+        Loading comments...
+    </div>
+
+    <!-- Table -->
+    <div class="table-responsive">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Author</th>
+                    <th>Comment Text</th>
+                    <th>Sentiment</th>
+                    <th>Emotion</th>
+                    <th>Quality</th>
+                    <th>Toxicity</th>
+                    <th>Likes</th>
+                </tr>
+            </thead>
+            <tbody id="commentsTableBody">
+                <!-- Injected via JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Pagination -->
+    <div class="pagination-wrap">
+        <span id="paginationInfo">Page 1 of 1</span>
+        <div class="pagination-btns">
+            <button type="button" id="paginationPrev" class="btn btn-secondary btn-sm" onclick="App.prevPage()">
+                ◀ Previous
+            </button>
+            <button type="button" id="paginationNext" class="btn btn-secondary btn-sm" onclick="App.nextPage()">
+                Next ▶
+            </button>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const comments = {{ session_data.comments|tojson }};
+        App.initCommentExplorer(comments);
+    });
+</script>
+{% endblock %}

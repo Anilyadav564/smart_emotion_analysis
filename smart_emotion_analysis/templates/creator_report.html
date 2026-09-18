@@ -1,0 +1,145 @@
+{% extends "base.html" %}
+
+{% block title %}YouTube Creator Report | Comment AI{% endblock %}
+
+{% block content %}
+<div class="page-header-bar">
+    <div>
+        <h1 class="page-heading">Executive YouTube Creator Report</h1>
+        <p class="page-subheading">A clean, presentation-ready briefing on audience sentiment, reaction themes, and actionable production takeaways.</p>
+    </div>
+
+    <div class="action-buttons-group">
+        <button type="button" class="btn btn-secondary btn-sm" onclick="window.print()">
+            🖨️ Print / Save as PDF
+        </button>
+        <a href="/api/export/{{ session_data.session_id }}?format=csv" class="btn btn-secondary btn-sm">
+            📥 Download CSV
+        </a>
+        <a href="/dashboard?session_id={{ session_data.session_id }}" class="btn btn-primary btn-sm">
+            📊 Back to Dashboard
+        </a>
+    </div>
+</div>
+
+<div class="card" style="padding: 36px; max-width: 1000px; margin: 0 auto; border: 2px solid var(--border-color);">
+    <!-- Report Header Banner -->
+    <div style="border-bottom: 2px solid var(--border-color); padding-bottom: 24px; margin-bottom: 28px; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 16px;">
+        <div>
+            <div style="font-size: 0.75rem; text-transform: uppercase; font-weight: 800; color: var(--primary); letter-spacing: 0.08em; margin-bottom: 6px;">
+                AUDIENCE INTELLIGENCE REPORT
+            </div>
+            <h1 style="font-size: 1.85rem; font-weight: 800; color: var(--text-main); line-height: 1.2;">
+                {{ session_data.video_title }}
+            </h1>
+            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 6px;">
+                Generated: {{ session_data.timestamp }} • Analyzed Comments: <strong>{{ session_data.metrics.total_comments }}</strong>
+            </p>
+        </div>
+        <div style="text-align: right;">
+            <span class="badge badge-positive" style="font-size: 0.85rem; padding: 6px 14px;">
+                Health: {{ session_data.insights.mood_status }}
+            </span>
+        </div>
+    </div>
+
+    <!-- Executive Summary Box -->
+    <div style="background: var(--bg-card-subtle); border-radius: var(--radius-md); padding: 20px 24px; margin-bottom: 28px;">
+        <h3 style="font-size: 1rem; font-weight: 700; color: var(--text-main); margin-bottom: 8px;">
+            1. Executive Sentiment Summary
+        </h3>
+        <p style="font-size: 0.925rem; color: var(--text-main); line-height: 1.6;">
+            {{ session_data.insights.audience_mood }}
+        </p>
+    </div>
+
+    <!-- Key Metrics 4-col Strip -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px;">
+        <div style="border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 14px; text-align: center;">
+            <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700;">Positive Polar</div>
+            <div style="font-size: 1.6rem; font-weight: 800; color: var(--success);">{{ session_data.metrics.positive_percentage }}%</div>
+        </div>
+        <div style="border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 14px; text-align: center;">
+            <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700;">Neutral Dialogue</div>
+            <div style="font-size: 1.6rem; font-weight: 800; color: var(--text-muted);">{{ session_data.metrics.neutral_percentage }}%</div>
+        </div>
+        <div style="border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 14px; text-align: center;">
+            <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700;">Negative Polar</div>
+            <div style="font-size: 1.6rem; font-weight: 800; color: var(--danger);">{{ session_data.metrics.negative_percentage }}%</div>
+        </div>
+        <div style="border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 14px; text-align: center;">
+            <div style="font-size: 0.75rem; color: var(--text-muted); text-transform: uppercase; font-weight: 700;">Avg Quality</div>
+            <div style="font-size: 1.6rem; font-weight: 800; color: var(--primary);">{{ session_data.metrics.average_quality }}/100</div>
+        </div>
+    </div>
+
+    <!-- Emotion Breakdown Section -->
+    <div style="margin-bottom: 32px;">
+        <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--text-main); margin-bottom: 8px;">
+            2. Audience Emotional Resonance
+        </h3>
+        <p style="font-size: 0.9rem; color: var(--text-main); line-height: 1.6; margin-bottom: 14px;">
+            <strong>Dominant detected emotion:</strong> <span style="text-transform: capitalize; color: var(--primary);">{{ session_data.metrics.dominant_emotion }}</span> ({{ session_data.metrics.dominant_emotion_percentage }}% of emotional indicators).
+            <br>
+            {{ session_data.metrics.emotion_interpretation }}
+        </p>
+    </div>
+
+    <!-- Qualitative Insights (Loved vs Friction) -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-bottom: 32px;">
+        <div>
+            <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--success); margin-bottom: 10px;">
+                ✓ What Viewers Resonated With
+            </h4>
+            <ul style="padding-left: 18px; font-size: 0.875rem; line-height: 1.6; color: var(--text-main);">
+                {% for item in session_data.insights.what_viewers_loved %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div>
+            <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--warning); margin-bottom: 10px;">
+                ! Critical Inquiries & Friction
+            </h4>
+            <ul style="padding-left: 18px; font-size: 0.875rem; line-height: 1.6; color: var(--text-main);">
+                {% for item in session_data.insights.common_complaints %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <!-- Top Spotlight Comments -->
+    <div style="margin-bottom: 32px;">
+        <h3 style="font-size: 1.1rem; font-weight: 700; color: var(--text-main); margin-bottom: 14px;">
+            3. Representative High-Impact Comments
+        </h3>
+        <div style="display: flex; flex-direction: column; gap: 12px;">
+            {% for c in session_data.best_comments[:3] %}
+            <div style="border-left: 3px solid #f59e0b; background: var(--bg-card-subtle); padding: 12px 16px; border-radius: 0 var(--radius-sm) var(--radius-sm) 0;">
+                <div style="font-weight: 600; font-size: 0.85rem; color: var(--text-main); margin-bottom: 4px;">
+                    {{ c.author }} • <span style="color: var(--text-muted); font-size: 0.775rem;">👍 {{ c.likes }} likes</span>
+                </div>
+                <p style="font-size: 0.875rem; font-style: italic; color: var(--text-main);">"{{ c.comment_text }}"</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Actionable Recommendations for Creator -->
+    <div style="background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 22px;">
+        <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--primary); margin-bottom: 12px;">
+            4. Creator Action Plan & Recommendations
+        </h3>
+        <div style="display: flex; flex-direction: column; gap: 10px;">
+            {% for rec in session_data.insights.recommendations %}
+            <div style="display: flex; align-items: flex-start; gap: 10px; font-size: 0.9rem; line-height: 1.5; color: var(--text-main);">
+                <span style="color: var(--primary); font-weight: 800;">→</span>
+                <span>{{ rec }}</span>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

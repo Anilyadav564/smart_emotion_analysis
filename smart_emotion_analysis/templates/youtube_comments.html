@@ -1,0 +1,300 @@
+{% extends "base.html" %}
+
+{% block title %}Analyze YouTube Video | Comment AI{% endblock %}
+
+{% block content %}
+<div class="page-header-bar">
+    <div>
+        <h1 class="page-heading">Analyze YouTube Video Comments</h1>
+        <p class="page-subheading">Retrieve and analyze real public comments directly from any YouTube video URL with automated AI intelligence.</p>
+    </div>
+
+    <div class="action-buttons-group">
+        <button type="button" class="btn btn-secondary btn-sm" onclick="App.loadDemoData()">
+            <span>⚡ Try Demo Data</span>
+        </button>
+    </div>
+</div>
+
+<div class="card" style="max-width: 900px; margin: 0 auto;">
+    <!-- Tabs Header -->
+    <div class="tabs-header">
+        <button type="button" class="tab-btn active" data-target="tabYoutubeUrl">
+            🔗 YouTube Video URL
+        </button>
+        <button type="button" class="tab-btn" data-target="tabUploadFile">
+            📁 Upload File (CSV / TXT)
+        </button>
+        <button type="button" class="tab-btn" data-target="tabPasteText">
+            📋 Paste Comments
+        </button>
+    </div>
+
+    <!-- Error Alert Box -->
+    <div id="analysisErrorState" style="display: none; padding: 16px 20px; background: var(--danger-light); border: 1px solid var(--danger-border); border-radius: var(--radius-md); color: var(--danger); margin-bottom: 24px;">
+        <div style="display: flex; align-items: flex-start; gap: 12px;">
+            <div style="font-size: 1.25rem;">⚠️</div>
+            <div>
+                <strong id="errorTitle" style="display: block; font-size: 0.95rem; margin-bottom: 4px;">Unable to Analyze Video</strong>
+                <p id="errorMessage" style="font-size: 0.875rem; line-height: 1.5; margin: 0;"></p>
+                <div id="errorHelp" style="margin-top: 10px; font-size: 0.8rem; color: var(--text-muted); display: none;">
+                    💡 <strong>Setup Help:</strong> Ensure <code>YOUTUBE_API_KEY=your_key</code> is set in your <code>.env</code> file. Check <code>.env.example</code> for free key generation steps.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Professional Real-Time Loading State -->
+    <div id="analysisLoadingState" style="display: none; padding: 36px 24px; background: var(--bg-card-subtle); border: 1px solid var(--border-color); border-radius: var(--radius-md); margin-bottom: 24px;">
+        <div style="text-align: center; margin-bottom: 24px;">
+            <div style="font-size: 2.2rem; display: inline-block; animation: spin 2s linear infinite;">⏳</div>
+            <h3 style="font-size: 1.2rem; font-weight: 700; color: var(--text-main); margin-top: 8px;">
+                Analyzing YouTube Video...
+            </h3>
+            <p id="loadingStatusText" style="font-size: 0.85rem; color: var(--text-muted);">
+                Connecting to YouTube Data API v3 and retrieving comments...
+            </p>
+        </div>
+
+        <div style="max-width: 440px; margin: 0 auto; display: flex; flex-direction: column; gap: 10px;">
+            <div id="step1" class="loading-step active" style="display: flex; align-items: center; gap: 10px; font-size: 0.875rem; color: var(--text-main);">
+                <span class="step-icon">🔄</span>
+                <span>Extracting & validating Video ID</span>
+            </div>
+            <div id="step2" class="loading-step" style="display: flex; align-items: center; gap: 10px; font-size: 0.875rem; color: var(--text-muted);">
+                <span class="step-icon">⚪</span>
+                <span>Retrieving video metadata & comment threads</span>
+            </div>
+            <div id="step3" class="loading-step" style="display: flex; align-items: center; gap: 10px; font-size: 0.875rem; color: var(--text-muted);">
+                <span class="step-icon">⚪</span>
+                <span>Processing VADER sentiment & 6-emotion breakdown</span>
+            </div>
+            <div id="step4" class="loading-step" style="display: flex; align-items: center; gap: 10px; font-size: 0.875rem; color: var(--text-muted);">
+                <span class="step-icon">⚪</span>
+                <span>Checking toxicity guardrails & scoring quality</span>
+            </div>
+            <div id="step5" class="loading-step" style="display: flex; align-items: center; gap: 10px; font-size: 0.875rem; color: var(--text-muted);">
+                <span class="step-icon">⚪</span>
+                <span>Extracting audience topics & generating insights</span>
+            </div>
+        </div>
+    </div>
+
+    <form id="commentAnalysisForm" onsubmit="event.preventDefault(); handleAnalysisSubmit();">
+        <!-- TAB 1: YouTube URL (PRIMARY) -->
+        <div id="tabYoutubeUrl" class="tab-content" style="display: block;">
+            <div style="background: var(--bg-surface); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 20px; margin-bottom: 20px;">
+                <label style="display: block; font-size: 0.825rem; font-weight: 700; text-transform: uppercase; color: var(--text-muted); margin-bottom: 8px;">
+                    YouTube Video URL or Video ID
+                </label>
+                <div style="position: relative;">
+                    <input
+                        type="text"
+                        id="youtubeUrlInput"
+                        class="form-input"
+                        style="padding-left: 42px; font-size: 1rem;"
+                        placeholder="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                        required
+                    />
+                    <span style="position: absolute; left: 14px; top: 12px; font-size: 1.1rem; color: var(--danger);">
+                        ▶
+                    </span>
+                </div>
+
+                <div style="margin-top: 8px; font-size: 0.8rem; color: var(--text-muted); line-height: 1.5;">
+                    Supported formats: <code>youtube.com/watch?v=...</code>, <code>youtu.be/...</code>, <code>youtube.com/shorts/...</code>, <code>embed/...</code>
+                </div>
+            </div>
+
+            <div style="background: var(--bg-card-subtle); border-radius: var(--radius-sm); padding: 14px 18px; margin-bottom: 24px;">
+                <div style="display: flex; align-items: center; justify-content: space-between; font-size: 0.8rem;">
+                    <span style="color: var(--text-muted);">
+                        🔑 Powered by <strong>YouTube Data API v3</strong> (configured in <code>.env</code>)
+                    </span>
+                    <a href="https://console.cloud.google.com/apis/credentials" target="_blank" rel="noopener" style="color: var(--primary); font-weight: 600;">
+                        Get Free API Key ↗
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 2: File Upload -->
+        <div id="tabUploadFile" class="tab-content" style="display: none;">
+            <div style="margin-bottom: 16px;">
+                <label style="display: block; font-size: 0.825rem; font-weight: 600; text-transform: uppercase; color: var(--text-muted); margin-bottom: 6px;">
+                    Video / File Title (Optional)
+                </label>
+                <input type="text" id="videoTitleInput" class="form-input" placeholder="e.g. Full-Stack Python Masterclass" />
+            </div>
+
+            <div id="fileDropzone" class="dropzone">
+                <div class="dropzone-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <polyline points="17 8 12 3 7 8"></polyline>
+                        <line x1="12" y1="3" x2="12" y2="15"></line>
+                    </svg>
+                </div>
+                <h4 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 6px;">
+                    Drop your comment file here
+                </h4>
+                <p style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 16px;">
+                    Supports <strong>CSV</strong> (with <code>comment</code>, <code>text</code>, or <code>body</code> columns), <strong>TXT</strong> (line-by-line), or <strong>JSON</strong>
+                </p>
+                <input type="file" id="fileInput" name="file" accept=".csv,.txt,.json" style="display: none;" />
+                <button type="button" class="btn btn-secondary btn-sm" onclick="document.getElementById('fileInput').click()">
+                    Browse Files on Computer
+                </button>
+                <div id="dropzonePreview"></div>
+            </div>
+
+            <div style="margin-top: 16px; font-size: 0.8rem; color: var(--text-muted); display: flex; align-items: center; justify-content: space-between;">
+                <span>Auto-detects columns: <code>comment</code>, <code>author</code>, <code>likes</code>, <code>published_at</code></span>
+                <span>Max size: 16MB</span>
+            </div>
+        </div>
+
+        <!-- TAB 3: Paste Text -->
+        <div id="tabPasteText" class="tab-content" style="display: none;">
+            <label style="display: block; font-size: 0.825rem; font-weight: 600; text-transform: uppercase; color: var(--text-muted); margin-bottom: 6px;">
+                Paste Comments (one per line or paragraph separated)
+            </label>
+            <textarea id="pastedTextInput" class="form-textarea" placeholder="Paste comments here...&#10;&#10;Example:&#10;Your explanation of step 3 was so clear, loved this video!&#10;The audio was a bit quiet at 04:30 but great tutorial overall.&#10;Could you provide the GitHub repository link?"></textarea>
+        </div>
+
+        <div style="margin-top: 24px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px;">
+            <button type="button" class="btn btn-secondary" onclick="App.loadDemoData()">
+                ⚡ Or Try Demo Data
+            </button>
+            <button type="submit" id="analyzeSubmitBtn" class="btn btn-primary btn-lg">
+                🚀 Analyze Comments
+            </button>
+        </div>
+    </form>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    function handleAnalysisSubmit() {
+        const activeTab = document.querySelector('.tab-btn.active').dataset.target;
+        const errorBox = document.getElementById('analysisErrorState');
+        const errorMessage = document.getElementById('errorMessage');
+        const errorHelp = document.getElementById('errorHelp');
+        errorBox.style.display = 'none';
+        errorHelp.style.display = 'none';
+
+        if (activeTab === 'tabYoutubeUrl') {
+            const url = document.getElementById('youtubeUrlInput').value.trim();
+            if (!url) {
+                showError('Please enter a YouTube video URL.');
+                return;
+            }
+            analyzeRealYoutubeUrl(url);
+        } else if (activeTab === 'tabUploadFile') {
+            const fileInput = document.getElementById('fileInput');
+            if (!fileInput.files || !fileInput.files.length) {
+                showError('Please select or drop a CSV or TXT file to upload.');
+                return;
+            }
+            const formData = new FormData();
+            formData.append('file', fileInput.files[0]);
+            const videoTitle = document.getElementById('videoTitleInput').value.trim();
+            if (videoTitle) formData.append('video_title', videoTitle);
+            App.submitCommentAnalysis(formData);
+        } else if (activeTab === 'tabPasteText') {
+            const text = document.getElementById('pastedTextInput').value.trim();
+            if (!text) {
+                showError('Please paste at least one comment into the textarea.');
+                return;
+            }
+            const formData = new FormData();
+            formData.append('pasted_text', text);
+            App.submitCommentAnalysis(formData);
+        }
+    }
+
+    function analyzeRealYoutubeUrl(url) {
+        const submitBtn = document.getElementById('analyzeSubmitBtn');
+        const loadingBox = document.getElementById('analysisLoadingState');
+        submitBtn.disabled = true;
+        loadingBox.style.display = 'block';
+
+        // Animate steps visually as request executes
+        setLoadingStep(1, 'Extracting & validating Video ID...');
+        setTimeout(() => setLoadingStep(2, 'Calling YouTube Data API v3 for comments...'), 400);
+
+        fetch('/api/analyze-youtube', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ url: url })
+        })
+        .then(res => res.json().then(data => ({ status: res.status, body: data })))
+        .then(result => {
+            if (result.status === 200 && result.body.success) {
+                setLoadingStep(3, 'Processing VADER sentiment & emotions...');
+                setTimeout(() => {
+                    setLoadingStep(4, 'Checking toxicity & quality scores...');
+                    setTimeout(() => {
+                        setLoadingStep(5, 'Generating dynamic insights & topics...');
+                        setTimeout(() => {
+                            window.location.href = result.body.redirect_url;
+                        }, 300);
+                    }, 250);
+                }, 250);
+            } else {
+                submitBtn.disabled = false;
+                loadingBox.style.display = 'none';
+                showError(result.body.error || 'Unable to retrieve comments for this video.');
+            }
+        })
+        .catch(err => {
+            submitBtn.disabled = false;
+            loadingBox.style.display = 'none';
+            showError('Network error connecting to the server: ' + err.message);
+        });
+    }
+
+    function setLoadingStep(stepNum, statusText) {
+        const statusEl = document.getElementById('loadingStatusText');
+        if (statusEl) statusEl.textContent = statusText;
+
+        for (let i = 1; i <= 5; i++) {
+            const stepEl = document.getElementById('step' + i);
+            if (!stepEl) continue;
+            const icon = stepEl.querySelector('.step-icon');
+            if (i < stepNum) {
+                icon.textContent = '✓';
+                icon.style.color = 'var(--success)';
+                stepEl.style.color = 'var(--text-main)';
+            } else if (i === stepNum) {
+                icon.textContent = '🔄';
+                stepEl.style.color = 'var(--primary)';
+                stepEl.style.fontWeight = '600';
+            } else {
+                icon.textContent = '⚪';
+                stepEl.style.color = 'var(--text-muted)';
+                stepEl.style.fontWeight = 'normal';
+            }
+        }
+    }
+
+    function showError(msg) {
+        const errorBox = document.getElementById('analysisErrorState');
+        const errorMessage = document.getElementById('errorMessage');
+        const errorHelp = document.getElementById('errorHelp');
+        errorMessage.textContent = msg;
+        errorBox.style.display = 'block';
+
+        if (msg.includes('YOUTUBE_API_KEY') || msg.includes('configuration is missing')) {
+            errorHelp.style.display = 'block';
+        }
+    }
+</script>
+<style>
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+</style>
+{% endblock %}

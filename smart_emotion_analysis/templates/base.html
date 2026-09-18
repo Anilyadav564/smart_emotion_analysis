@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}AI YouTube Comment Intelligence{% endblock %}</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="app-wrapper">
+        <!-- Sidebar -->
+        <aside class="app-sidebar">
+            <div class="sidebar-brand">
+                <div class="brand-icon">▶</div>
+                <div class="brand-title">Comment AI</div>
+                <div class="brand-badge">PRO</div>
+            </div>
+
+            <nav class="sidebar-nav">
+                <div class="nav-section-title">Analytics</div>
+                <a href="/dashboard{% if session_data %}?session_id={{ session_data.session_id }}{% endif %}" class="nav-item {% if active_tab == 'dashboard' %}active{% endif %}">
+                    <span class="nav-icon">📊</span>
+                    <span>Dashboard</span>
+                </a>
+                <a href="/youtube-comments{% if session_data %}?session_id={{ session_data.session_id }}{% endif %}" class="nav-item {% if active_tab == 'youtube-comments' %}active{% endif %}">
+                    <span class="nav-icon">📥</span>
+                    <span>YouTube Comments</span>
+                </a>
+                <a href="/comments{% if session_data %}?session_id={{ session_data.session_id }}{% endif %}" class="nav-item {% if active_tab == 'comments' %}active{% endif %}">
+                    <span class="nav-icon">💬</span>
+                    <span>Comment Analysis</span>
+                </a>
+                <a href="/insights{% if session_data %}?session_id={{ session_data.session_id }}{% endif %}" class="nav-item {% if active_tab == 'insights' %}active{% endif %}">
+                    <span class="nav-icon">💡</span>
+                    <span>AI Insights</span>
+                </a>
+
+                <div class="nav-section-title">Deep Dive</div>
+                <a href="/top-comments{% if session_data %}?session_id={{ session_data.session_id }}{% endif %}" class="nav-item {% if active_tab == 'top-comments' %}active{% endif %}">
+                    <span class="nav-icon">🏆</span>
+                    <span>Top Comments</span>
+                </a>
+                <a href="/negative-comments{% if session_data %}?session_id={{ session_data.session_id }}{% endif %}" class="nav-item {% if active_tab == 'negative-comments' %}active{% endif %}">
+                    <span class="nav-icon">⚠️</span>
+                    <span>Negative Comments</span>
+                </a>
+                <a href="/emotions{% if session_data %}?session_id={{ session_data.session_id }}{% endif %}" class="nav-item {% if active_tab == 'emotions' %}active{% endif %}">
+                    <span class="nav-icon">🎭</span>
+                    <span>Emotion Analysis</span>
+                </a>
+
+                <div class="nav-section-title">Workspace</div>
+                <a href="/report{% if session_data %}?session_id={{ session_data.session_id }}{% endif %}" class="nav-item {% if active_tab == 'report' %}active{% endif %}">
+                    <span class="nav-icon">📑</span>
+                    <span>Creator Report</span>
+                </a>
+                <a href="/history" class="nav-item {% if active_tab == 'history' %}active{% endif %}">
+                    <span class="nav-icon">🕒</span>
+                    <span>History</span>
+                </a>
+                <a href="/" class="nav-item {% if active_tab == 'index' %}active{% endif %}">
+                    <span class="nav-icon">📝</span>
+                    <span>Single Text Analyzer</span>
+                </a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <button type="button" class="demo-btn-sidebar" onclick="App.loadDemoData()">
+                    <span>⚡ Try Demo Data</span>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Wrapper -->
+        <div class="app-main">
+            <!-- Header -->
+            <header class="app-header">
+                <div class="header-left">
+                    <button class="mobile-toggle" id="mobileNavToggle" aria-label="Toggle menu">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                    </button>
+                    <div class="header-title-wrap">
+                        <h1 class="header-main-title">Comment Intelligence</h1>
+                        <p class="header-subtitle">Understand what your audience is really saying.</p>
+                    </div>
+                </div>
+
+                <div class="header-right">
+                    {% if all_sessions and all_sessions|length > 0 %}
+                    <div class="session-select-wrap">
+                        <span>Session:</span>
+                        <select class="session-dropdown" onchange="window.location.href='?session_id=' + this.value">
+                            {% for s in all_sessions %}
+                            <option value="{{ s.session_id }}" {% if session_data and session_data.session_id == s.session_id %}selected{% endif %}>
+                                {{ s.video_title }} ({{ s.total_comments }})
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    {% endif %}
+
+                    <!-- Dark/Light Theme Toggle -->
+                    <button id="themeToggleBtn" class="theme-toggle-btn" title="Toggle theme">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+
+                    <!-- Creator Profile -->
+                    <div class="user-profile-badge">
+                        <div class="avatar">YT</div>
+                        <div class="user-info">
+                            <span class="user-name">YouTube Creator</span>
+                            <span class="user-role">Analytics Pro</span>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Page Container -->
+            <main class="page-container">
+                {% block content %}{% endblock %}
+            </main>
+        </div>
+    </div>
+
+    <!-- Global Comment Detail Modal -->
+    <div id="commentDetailModal" class="modal-backdrop">
+        <div class="modal-card">
+            <div class="card-header" style="border: none; padding-bottom: 8px;">
+                <div class="comment-author-wrap">
+                    <div class="comment-avatar" id="modalAvatar">👤</div>
+                    <div>
+                        <h3 id="modalAuthor" style="font-size: 1.05rem; font-weight: 700;">Author</h3>
+                        <span id="modalDate" style="font-size: 0.75rem; color: var(--text-muted);">Timestamp</span>
+                    </div>
+                </div>
+                <button id="modalCloseBtn" class="modal-close-btn">&times;</button>
+            </div>
+
+            <div style="background: var(--bg-card-subtle); padding: 16px; border-radius: var(--radius-md); margin-bottom: 20px;">
+                <p id="modalText" style="font-size: 1rem; line-height: 1.6; font-style: italic; color: var(--text-main);"></p>
+                <div style="margin-top: 10px; font-size: 0.8rem; color: var(--text-muted); font-weight: 600;" id="modalLikes">
+                    👍 0 likes
+                </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px;">
+                <div style="background: var(--bg-surface); border: 1px solid var(--border-color); padding: 14px; border-radius: var(--radius-sm);">
+                    <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700; margin-bottom: 6px;">Sentiment</div>
+                    <div id="modalSentiment" class="badge badge-positive">Positive</div>
+                </div>
+
+                <div style="background: var(--bg-surface); border: 1px solid var(--border-color); padding: 14px; border-radius: var(--radius-sm);">
+                    <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700; margin-bottom: 6px;">Dominant Emotion</div>
+                    <div id="modalEmotion" style="font-weight: 700; color: var(--primary);">HAPPINESS</div>
+                </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px;">
+                <div style="background: var(--bg-surface); border: 1px solid var(--border-color); padding: 14px; border-radius: var(--radius-sm);">
+                    <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700; margin-bottom: 4px;">Quality Score</div>
+                    <div id="modalQualityScore" style="font-size: 1.35rem; font-weight: 800; color: var(--primary);">94 / 100</div>
+                    <div id="modalQualityGrade" style="font-size: 0.8rem; font-weight: 600; color: var(--success);">Excellent</div>
+                    <div id="modalFeedbackType" style="font-size: 0.75rem; color: var(--text-muted); margin-top: 4px;">Constructive Feedback</div>
+                </div>
+
+                <div style="background: var(--bg-surface); border: 1px solid var(--border-color); padding: 14px; border-radius: var(--radius-sm);">
+                    <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700; margin-bottom: 4px;">Toxicity Check</div>
+                    <div id="modalToxicity" class="badge badge-positive">Safe (0%)</div>
+                    <div style="font-size: 0.75rem; color: var(--text-muted); margin-top: 8px;">Automated multi-category guardrail</div>
+                </div>
+            </div>
+
+            <!-- Emotion Breakdown -->
+            <div style="margin-bottom: 20px; background: var(--bg-card-subtle); padding: 14px; border-radius: var(--radius-sm);">
+                <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700; margin-bottom: 8px;">Emotion Word Signals</div>
+                <div id="modalEmotionBreakdown"></div>
+            </div>
+
+            <!-- AI Reason Explanation -->
+            <div style="background: var(--bg-surface); border: 1px solid var(--border-color); padding: 14px; border-radius: var(--radius-sm); margin-bottom: 20px;">
+                <div style="font-size: 0.75rem; text-transform: uppercase; color: var(--text-muted); font-weight: 700; margin-bottom: 4px;">AI Assessment Reason</div>
+                <p id="modalExplanation" style="font-size: 0.85rem; color: var(--text-main);"></p>
+            </div>
+
+            <div style="display: flex; justify-content: flex-end; gap: 10px;">
+                <button class="btn btn-secondary btn-sm" onclick="App.copyCommentText(document.getElementById('modalText').textContent)">
+                    📋 Copy Comment
+                </button>
+                <button class="btn btn-primary btn-sm" onclick="App.closeCommentModal()">
+                    Done
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="{{ url_for('static', filename='charts.js') }}"></script>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+    {% block scripts %}{% endblock %}
+</body>
+</html>

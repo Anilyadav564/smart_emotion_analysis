@@ -1,0 +1,197 @@
+{% extends "base.html" %}
+
+{% block title %}Negative Comments & Critique Intelligence | Comment AI{% endblock %}
+
+{% block content %}
+<div class="page-header-bar">
+    <div>
+        <h1 class="page-heading">Negative Feedback & Critique Analysis</h1>
+        <p class="page-subheading">Intelligent triage separating constructive audience critique from general dissatisfaction and abusive toxicity.</p>
+    </div>
+
+    <div class="action-buttons-group">
+        <a href="/comments?session_id={{ session_data.session_id }}" class="btn btn-secondary btn-sm">
+            <span>🔍 View in Explorer</span>
+        </a>
+    </div>
+</div>
+
+<!-- Educational Differentiation Card -->
+<div class="card" style="border-left: 4px solid var(--purple); background: var(--bg-card-subtle);">
+    <h3 style="font-size: 1.05rem; font-weight: 700; color: var(--text-main); margin-bottom: 8px;">
+        💡 How AI Classifies Negative Feedback
+    </h3>
+    <p style="font-size: 0.875rem; color: var(--text-muted); line-height: 1.6; margin-bottom: 12px;">
+        Not all negative comments are bad. Many contain your video's most valuable optimization signals. Our pipeline separates comments into three distinct tiers:
+    </p>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 14px;">
+        <div style="background: var(--bg-surface); border: 1px solid var(--border-color); padding: 12px 14px; border-radius: var(--radius-sm);">
+            <div style="font-weight: 700; color: var(--purple); font-size: 0.85rem; margin-bottom: 4px;">1. Constructive Criticism</div>
+            <div style="font-size: 0.775rem; color: var(--text-muted);">Points out pacing, audio levels, or unclear steps with actionable context. High creator value.</div>
+        </div>
+        <div style="background: var(--bg-surface); border: 1px solid var(--border-color); padding: 12px 14px; border-radius: var(--radius-sm);">
+            <div style="font-weight: 700; color: var(--warning); font-size: 0.85rem; margin-bottom: 4px;">2. Critical Complaints</div>
+            <div style="font-size: 0.775rem; color: var(--text-muted);">Expresses general disappointment or confusion without specific solutions.</div>
+        </div>
+        <div style="background: var(--bg-surface); border: 1px solid var(--border-color); padding: 12px 14px; border-radius: var(--radius-sm);">
+            <div style="font-weight: 700; color: var(--danger); font-size: 0.85rem; margin-bottom: 4px;">3. Toxic / Abusive Content</div>
+            <div style="font-size: 0.775rem; color: var(--text-muted);">Contains insults, harassment, profanity, or threats. Zero instructional value.</div>
+        </div>
+    </div>
+</div>
+
+<!-- SECTION 1: Constructive Criticism -->
+<div class="card">
+    <div class="card-header">
+        <div>
+            <h3 class="card-title">
+                <span>💡 Constructive Criticism (Recommended for Creator Review)</span>
+            </h3>
+            <p class="card-subtitle">Actionable suggestions to improve pacing, audio, clarity, or future content</p>
+        </div>
+        <span class="badge badge-constructive">{{ session_data.negative_comments.constructive_criticism|length }} Identified</span>
+    </div>
+
+    <div class="comment-card-list">
+        {% for comment in session_data.negative_comments.constructive_criticism %}
+        <div class="comment-card featured-purple">
+            <div class="comment-header">
+                <div class="comment-author-wrap">
+                    <div class="comment-avatar">💡</div>
+                    <div>
+                        <span class="comment-author">{{ comment.author }}</span>
+                        <span class="comment-date"> • {{ comment.published_at }}</span>
+                    </div>
+                </div>
+                <div class="comment-tags">
+                    <span class="badge badge-constructive">Constructive Feedback</span>
+                    <span class="badge badge-quality-good">Quality: {{ comment.quality.quality_score }}/100</span>
+                </div>
+            </div>
+
+            <p class="comment-text">"{{ comment.comment_text }}"</p>
+
+            <div class="comment-footer">
+                <div style="font-size: 0.8rem; color: var(--text-muted);">
+                    AI Diagnosis: <em>{{ comment.quality.explanation }}</em>
+                </div>
+                <div class="comment-actions">
+                    <button class="btn btn-secondary btn-sm" onclick="App.copyCommentText(`{{ comment.comment_text|escape }}`)">
+                        📋 Copy
+                    </button>
+                    <button class="btn btn-primary btn-sm" onclick='App.openCommentModal({{ comment|tojson }})'>
+                        🔍 View Detail
+                    </button>
+                </div>
+            </div>
+        </div>
+        {% else %}
+        <p style="color: var(--text-muted); font-size: 0.9rem; padding: 16px 0;">No negative comments with constructive critique detected.</p>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- SECTION 2: General Negative Complaints -->
+<div class="card">
+    <div class="card-header">
+        <div>
+            <h3 class="card-title">
+                <span>⚠️ General Critical Complaints</span>
+            </h3>
+            <p class="card-subtitle">Viewer dissatisfaction, confusion, or critical reactions without specific advice</p>
+        </div>
+        <span class="badge badge-negative">{{ session_data.negative_comments.critical_complaints|length }} Identified</span>
+    </div>
+
+    <div class="comment-card-list">
+        {% for comment in session_data.negative_comments.critical_complaints %}
+        <div class="comment-card">
+            <div class="comment-header">
+                <div class="comment-author-wrap">
+                    <div class="comment-avatar">⚠️</div>
+                    <div>
+                        <span class="comment-author">{{ comment.author }}</span>
+                        <span class="comment-date"> • {{ comment.published_at }}</span>
+                    </div>
+                </div>
+                <div class="comment-tags">
+                    <span class="badge badge-negative">Negative Sentiment</span>
+                    <span class="badge badge-quality-avg">Quality: {{ comment.quality.quality_score }}/100</span>
+                </div>
+            </div>
+
+            <p class="comment-text">"{{ comment.comment_text }}"</p>
+
+            <div class="comment-footer">
+                <div style="font-size: 0.8rem; color: var(--text-muted);">
+                    Emotion: <strong style="text-transform: capitalize;">{{ comment.primary_emotion }}</strong> • Compound: {{ comment.sentiment_scores.compound }}
+                </div>
+                <div class="comment-actions">
+                    <button class="btn btn-secondary btn-sm" onclick="App.copyCommentText(`{{ comment.comment_text|escape }}`)">
+                        📋 Copy
+                    </button>
+                    <button class="btn btn-primary btn-sm" onclick='App.openCommentModal({{ comment|tojson }})'>
+                        🔍 View Detail
+                    </button>
+                </div>
+            </div>
+        </div>
+        {% else %}
+        <p style="color: var(--text-muted); font-size: 0.9rem; padding: 16px 0;">No general critical complaints found.</p>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- SECTION 3: Toxic & Abusive Language -->
+<div class="card" style="border-top: 4px solid var(--danger);">
+    <div class="card-header">
+        <div>
+            <h3 class="card-title" style="color: var(--danger);">
+                <span>🚨 Toxic & Abusive Comments</span>
+            </h3>
+            <p class="card-subtitle">Hostile language, profanity, personal attacks, or spam flagged by safety guardrails</p>
+        </div>
+        <span class="badge badge-toxic">{{ session_data.negative_comments.toxic_comments|length }} Flagged</span>
+    </div>
+
+    <div class="comment-card-list">
+        {% for comment in session_data.negative_comments.toxic_comments %}
+        <div class="comment-card featured-red">
+            <div class="comment-header">
+                <div class="comment-author-wrap">
+                    <div class="comment-avatar" style="color: var(--danger); border-color: var(--danger-border);">🚨</div>
+                    <div>
+                        <span class="comment-author">{{ comment.author }}</span>
+                        <span class="comment-date"> • {{ comment.published_at }}</span>
+                    </div>
+                </div>
+                <div class="comment-tags">
+                    <span class="badge badge-toxic">Flagged Toxic ({{ (comment.toxicity.toxicity_score * 100)|int }}%)</span>
+                    <span class="badge badge-negative">{{ comment.toxicity.primary_category }}</span>
+                </div>
+            </div>
+
+            <p class="comment-text" style="color: var(--danger); font-family: monospace;">"{{ comment.comment_text }}"</p>
+
+            <div class="comment-footer">
+                <div style="font-size: 0.8rem; color: var(--text-muted);">
+                    Detected categories: <strong>{{ comment.toxicity.categories|join(', ') }}</strong>
+                </div>
+                <div class="comment-actions">
+                    <button class="btn btn-danger btn-sm" onclick="alert('Moderation action: Marked for channel hiding/blocking.')">
+                        🛡️ Moderate
+                    </button>
+                    <button class="btn btn-secondary btn-sm" onclick='App.openCommentModal({{ comment|tojson }})'>
+                        🔍 Inspect
+                    </button>
+                </div>
+            </div>
+        </div>
+        {% else %}
+        <div style="padding: 24px; text-align: center; color: var(--success); font-weight: 600;">
+            ✅ Zero abusive or toxic comments detected! Your comment section is safe and healthy.
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

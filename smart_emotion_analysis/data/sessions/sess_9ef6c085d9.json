@@ -1,0 +1,2408 @@
+{
+  "session_id": "sess_9ef6c085d9",
+  "video_id": "qI5YvAU9q64",
+  "video_title": "Final Year Project Presentation",
+  "channel_name": "syed haseeb",
+  "video_info": {
+    "video_id": "qI5YvAU9q64",
+    "title": "Final Year Project Presentation",
+    "channel_title": "syed haseeb",
+    "published_at": "2022-09-13T19:00:32Z",
+    "description": "Final Year Project Presentation ( Quality Control Inspection with Computer vision #title) #workflow.",
+    "thumbnail_url": "https://i.ytimg.com/vi/qI5YvAU9q64/maxresdefault.jpg",
+    "view_count": 1004963,
+    "like_count": 13993,
+    "comment_count": 45
+  },
+  "timestamp": "2026-09-09 20:13:34",
+  "total_comments": 21,
+  "metrics": {
+    "total_comments": 21,
+    "positive_count": 10,
+    "positive_percentage": 47.6,
+    "neutral_count": 11,
+    "neutral_percentage": 52.4,
+    "negative_count": 0,
+    "negative_percentage": 0.0,
+    "toxic_count": 0,
+    "toxicity_percentage": 0.0,
+    "constructive_count": 2,
+    "constructive_percentage": 9.5,
+    "average_quality": 39.7,
+    "dominant_emotion": "neutral",
+    "dominant_emotion_percentage": 68.2,
+    "emotion_totals": {
+      "happiness": 7,
+      "sadness": 0,
+      "anger": 0,
+      "fear": 0,
+      "surprise": 0,
+      "neutral": 15
+    },
+    "emotion_interpretation": "Audience response was largely objective and analytical, with Neutral/Informational commentary dominating. Overall positive sentiment stands at 47.6%, reflecting practical, constructive dialogue."
+  },
+  "topics": [
+    {
+      "topic": "Confidence Bro",
+      "count": 2,
+      "type": "phrase"
+    },
+    {
+      "topic": "Project Name",
+      "count": 2,
+      "type": "phrase"
+    },
+    {
+      "topic": "Not",
+      "count": 2,
+      "type": "word"
+    },
+    {
+      "topic": "Cheerthe",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Giving",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Something",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Someone",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Especially",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Part",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Formal",
+      "count": 1,
+      "type": "word"
+    }
+  ],
+  "insights": {
+    "audience_mood": "Balanced, discussion-driven reaction (52.4% neutral, 47.6% positive). Audience is focused on practical questions and analysis.",
+    "mood_status": "Balanced",
+    "what_viewers_loved": [
+      "Viewers appreciated positive aspects like: \"Cheer~~~the giving of something to someone, especially as part of a formal cerem...\""
+    ],
+    "common_complaints": [
+      "No major widespread complaints detected; isolated minor questions only."
+    ],
+    "potential_problems": [
+      "Zero detected toxicity! Comment section community health is exemplary."
+    ],
+    "recommendations": [
+      "Continue the current pacing and structure; viewers find the instructional style highly effective.",
+      "Engage with top constructive comments to foster deeper community retention."
+    ]
+  },
+  "best_comments": [
+    {
+      "comment_id": "UgwYPPFw4togNf5G7sR4AaABAg",
+      "author": "@tauhatalks2959",
+      "comment_text": "Good confidence bro \ud83d\ude2e in front of girls \ud83d\ude09\ud83d\ude02",
+      "cleaned_text": "good confidence bro in front of girls",
+      "likes": 193,
+      "reply_count": 10,
+      "published_at": "2023-07-06T17:09:12Z",
+      "updated_at": "2023-07-06T17:09:12Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.446,
+        "pos": 0.554,
+        "compound": 0.7351
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 64,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 65.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugzv5or_PAaB2_T4RP94AaABAg",
+      "author": "@tktvenglish000",
+      "comment_text": "Good confidence bro\u2764\ud83d\ude2e",
+      "cleaned_text": "good confidence bro",
+      "likes": 81,
+      "reply_count": 0,
+      "published_at": "2024-01-07T04:35:37Z",
+      "updated_at": "2024-01-07T04:35:37Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.139,
+        "pos": 0.861,
+        "compound": 0.7351
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 50,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 57.5,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugz3jBBPEYWbdDQ99cN4AaABAg",
+      "author": "@beerus-sama-U07",
+      "comment_text": "Memorize whatever you gonna say during presentation.....looking at the slides when present the materials just show your lack of confidence & preparation.....that's what lecturer sees for marks not whether you look  elegant or not....",
+      "cleaned_text": "memorize whatever you gonna say during presentationlooking at the slides when present the materials just show your lack of confidence preparationthats what lecturer sees for marks not whether you look elegant or not",
+      "likes": 16,
+      "reply_count": 3,
+      "published_at": "2024-09-21T03:27:29Z",
+      "updated_at": "2024-09-21T03:27:29Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.059,
+        "neu": 0.775,
+        "pos": 0.165,
+        "compound": 0.6249
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 55,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 53.8,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgwAR-STHnW_b0ZSY0N4AaABAg",
+      "author": "@anasbak8068",
+      "comment_text": "And and and avoid the repetition and speak relaxed .",
+      "cleaned_text": "and and and avoid the repetition and speak relaxed",
+      "likes": 77,
+      "reply_count": 3,
+      "published_at": "2024-05-15T06:44:18Z",
+      "updated_at": "2024-05-15T06:44:18Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.177,
+        "neu": 0.565,
+        "pos": 0.258,
+        "compound": 0.25
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 56,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 52.5,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgyenSfnk-MX3yKYX-x4AaABAg",
+      "author": "@SeXuctive",
+      "comment_text": "What was project ideas?",
+      "cleaned_text": "what was project ideas",
+      "likes": 4,
+      "reply_count": 1,
+      "published_at": "2024-10-19T06:26:27Z",
+      "updated_at": "2024-10-19T06:26:27Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 47,
+        "quality_grade": "Low",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 50.0,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugzi4gC2m5VnTG3aIHV4AaABAg",
+      "author": "@ComputerEngg",
+      "comment_text": "College name?",
+      "cleaned_text": "college name",
+      "likes": 7,
+      "reply_count": 1,
+      "published_at": "2023-11-22T06:52:56Z",
+      "updated_at": "2023-11-22T06:52:56Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 39,
+        "quality_grade": "Low",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 48.0,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugx2SWBIwNVi2FLwGBx4AaABAg",
+      "author": "@muktarabubakarm.1071",
+      "comment_text": "Good Sir All the best",
+      "cleaned_text": "good sir all the best",
+      "likes": 4,
+      "reply_count": 0,
+      "published_at": "2024-05-21T16:39:43Z",
+      "updated_at": "2024-05-21T16:39:43Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.297,
+        "pos": 0.703,
+        "compound": 0.7964
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 2,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 41,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 47.5,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugwwa7zC8BQcIjjjqwF4AaABAg",
+      "author": "@Jason-o5s",
+      "comment_text": "Cheer~~~the giving of something to someone, especially as part of a formal ceremony.\ud83d\ude0a",
+      "cleaned_text": "cheerthe giving of something to someone especially as part of a formal ceremony",
+      "likes": 12,
+      "reply_count": 1,
+      "published_at": "2024-09-26T04:23:04Z",
+      "updated_at": "2024-09-26T04:23:04Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.821,
+        "pos": 0.179,
+        "compound": 0.34
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 51,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 47.2,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugyhg7TCCzPTLsaHtH94AaABAg",
+      "author": "@HassanNoor-y4o",
+      "comment_text": "Excellent \ud83d\udc4d",
+      "cleaned_text": "excellent",
+      "likes": 7,
+      "reply_count": 0,
+      "published_at": "2024-05-27T01:55:57Z",
+      "updated_at": "2024-05-27T01:55:57Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.0,
+        "pos": 1.0,
+        "compound": 0.5719
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 31,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 41.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgxLFxH7if-QX8jWAWx4AaABAg",
+      "author": "@shabnaaz2001",
+      "comment_text": "wht is project name",
+      "cleaned_text": "wht is project name",
+      "likes": 29,
+      "reply_count": 1,
+      "published_at": "2022-11-18T15:11:15Z",
+      "updated_at": "2022-11-18T15:11:15Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 43,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 41.1,
+      "is_favorite": false
+    }
+  ],
+  "constructive_comments": [
+    {
+      "comment_id": "UgyenSfnk-MX3yKYX-x4AaABAg",
+      "author": "@SeXuctive",
+      "comment_text": "What was project ideas?",
+      "cleaned_text": "what was project ideas",
+      "likes": 4,
+      "reply_count": 1,
+      "published_at": "2024-10-19T06:26:27Z",
+      "updated_at": "2024-10-19T06:26:27Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 47,
+        "quality_grade": "Low",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 50.0,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugzi4gC2m5VnTG3aIHV4AaABAg",
+      "author": "@ComputerEngg",
+      "comment_text": "College name?",
+      "cleaned_text": "college name",
+      "likes": 7,
+      "reply_count": 1,
+      "published_at": "2023-11-22T06:52:56Z",
+      "updated_at": "2023-11-22T06:52:56Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 39,
+        "quality_grade": "Low",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 48.0,
+      "is_favorite": false
+    }
+  ],
+  "most_engaged": [
+    {
+      "comment_id": "UgwYPPFw4togNf5G7sR4AaABAg",
+      "author": "@tauhatalks2959",
+      "comment_text": "Good confidence bro \ud83d\ude2e in front of girls \ud83d\ude09\ud83d\ude02",
+      "cleaned_text": "good confidence bro in front of girls",
+      "likes": 193,
+      "reply_count": 10,
+      "published_at": "2023-07-06T17:09:12Z",
+      "updated_at": "2023-07-06T17:09:12Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.446,
+        "pos": 0.554,
+        "compound": 0.7351
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 64,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 65.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugzv5or_PAaB2_T4RP94AaABAg",
+      "author": "@tktvenglish000",
+      "comment_text": "Good confidence bro\u2764\ud83d\ude2e",
+      "cleaned_text": "good confidence bro",
+      "likes": 81,
+      "reply_count": 0,
+      "published_at": "2024-01-07T04:35:37Z",
+      "updated_at": "2024-01-07T04:35:37Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.139,
+        "pos": 0.861,
+        "compound": 0.7351
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 50,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 57.5,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgwAR-STHnW_b0ZSY0N4AaABAg",
+      "author": "@anasbak8068",
+      "comment_text": "And and and avoid the repetition and speak relaxed .",
+      "cleaned_text": "and and and avoid the repetition and speak relaxed",
+      "likes": 77,
+      "reply_count": 3,
+      "published_at": "2024-05-15T06:44:18Z",
+      "updated_at": "2024-05-15T06:44:18Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.177,
+        "neu": 0.565,
+        "pos": 0.258,
+        "compound": 0.25
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 56,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 52.5,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgxLFxH7if-QX8jWAWx4AaABAg",
+      "author": "@shabnaaz2001",
+      "comment_text": "wht is project name",
+      "cleaned_text": "wht is project name",
+      "likes": 29,
+      "reply_count": 1,
+      "published_at": "2022-11-18T15:11:15Z",
+      "updated_at": "2022-11-18T15:11:15Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 43,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 41.1,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugz3jBBPEYWbdDQ99cN4AaABAg",
+      "author": "@beerus-sama-U07",
+      "comment_text": "Memorize whatever you gonna say during presentation.....looking at the slides when present the materials just show your lack of confidence & preparation.....that's what lecturer sees for marks not whether you look  elegant or not....",
+      "cleaned_text": "memorize whatever you gonna say during presentationlooking at the slides when present the materials just show your lack of confidence preparationthats what lecturer sees for marks not whether you look elegant or not",
+      "likes": 16,
+      "reply_count": 3,
+      "published_at": "2024-09-21T03:27:29Z",
+      "updated_at": "2024-09-21T03:27:29Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.059,
+        "neu": 0.775,
+        "pos": 0.165,
+        "compound": 0.6249
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 55,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 53.8,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugwwa7zC8BQcIjjjqwF4AaABAg",
+      "author": "@Jason-o5s",
+      "comment_text": "Cheer~~~the giving of something to someone, especially as part of a formal ceremony.\ud83d\ude0a",
+      "cleaned_text": "cheerthe giving of something to someone especially as part of a formal ceremony",
+      "likes": 12,
+      "reply_count": 1,
+      "published_at": "2024-09-26T04:23:04Z",
+      "updated_at": "2024-09-26T04:23:04Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.821,
+        "pos": 0.179,
+        "compound": 0.34
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 51,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 47.2,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgwuekSW6wNpnwnU3oN4AaABAg",
+      "author": "@AbhayDeepSirKiDuniya",
+      "comment_text": "\u2764\ud83c\udf89 \u0950 \u0928\u092e\u0903 \u0936\u093f\u0935\u093e\u092f",
+      "cleaned_text": "",
+      "likes": 12,
+      "reply_count": 0,
+      "published_at": "2024-10-26T17:34:26Z",
+      "updated_at": "2024-10-26T17:34:26Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 40,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 37.7,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgwlGLZTaeLUwwZ8zGZ4AaABAg",
+      "author": "@hassanmahmoud4538",
+      "comment_text": "Hi\nWhat is the project name",
+      "cleaned_text": "hi what is the project name",
+      "likes": 10,
+      "reply_count": 1,
+      "published_at": "2023-02-15T05:42:02Z",
+      "updated_at": "2023-02-15T05:42:02Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 39,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 36.8,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgxNwQ-u1Ndm5F4h4gp4AaABAg",
+      "author": "@shubham-yj2iw",
+      "comment_text": "Abe slide pdhne ko presentation nahi bolte",
+      "cleaned_text": "abe slide pdhne ko presentation nahi bolte",
+      "likes": 9,
+      "reply_count": 1,
+      "published_at": "2024-07-15T02:21:22Z",
+      "updated_at": "2024-07-15T02:21:22Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 39,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 36.6,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugyhg7TCCzPTLsaHtH94AaABAg",
+      "author": "@HassanNoor-y4o",
+      "comment_text": "Excellent \ud83d\udc4d",
+      "cleaned_text": "excellent",
+      "likes": 7,
+      "reply_count": 0,
+      "published_at": "2024-05-27T01:55:57Z",
+      "updated_at": "2024-05-27T01:55:57Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.0,
+        "pos": 1.0,
+        "compound": 0.5719
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 31,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 41.4,
+      "is_favorite": false
+    }
+  ],
+  "most_positive": [
+    {
+      "comment_id": "Ugx2SWBIwNVi2FLwGBx4AaABAg",
+      "author": "@muktarabubakarm.1071",
+      "comment_text": "Good Sir All the best",
+      "cleaned_text": "good sir all the best",
+      "likes": 4,
+      "reply_count": 0,
+      "published_at": "2024-05-21T16:39:43Z",
+      "updated_at": "2024-05-21T16:39:43Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.297,
+        "pos": 0.703,
+        "compound": 0.7964
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 2,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 41,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 47.5,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugzv5or_PAaB2_T4RP94AaABAg",
+      "author": "@tktvenglish000",
+      "comment_text": "Good confidence bro\u2764\ud83d\ude2e",
+      "cleaned_text": "good confidence bro",
+      "likes": 81,
+      "reply_count": 0,
+      "published_at": "2024-01-07T04:35:37Z",
+      "updated_at": "2024-01-07T04:35:37Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.139,
+        "pos": 0.861,
+        "compound": 0.7351
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 50,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 57.5,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgwYPPFw4togNf5G7sR4AaABAg",
+      "author": "@tauhatalks2959",
+      "comment_text": "Good confidence bro \ud83d\ude2e in front of girls \ud83d\ude09\ud83d\ude02",
+      "cleaned_text": "good confidence bro in front of girls",
+      "likes": 193,
+      "reply_count": 10,
+      "published_at": "2023-07-06T17:09:12Z",
+      "updated_at": "2023-07-06T17:09:12Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.446,
+        "pos": 0.554,
+        "compound": 0.7351
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 64,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 65.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugw5tMJFW2vt2vsLlOJ4AaABAg",
+      "author": "@HHH-Media",
+      "comment_text": "Superb \ud83d\udc97",
+      "cleaned_text": "superb",
+      "likes": 1,
+      "reply_count": 0,
+      "published_at": "2025-07-25T20:09:11Z",
+      "updated_at": "2025-07-25T20:09:11Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.0,
+        "pos": 1.0,
+        "compound": 0.6249
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 28,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 37.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugz3jBBPEYWbdDQ99cN4AaABAg",
+      "author": "@beerus-sama-U07",
+      "comment_text": "Memorize whatever you gonna say during presentation.....looking at the slides when present the materials just show your lack of confidence & preparation.....that's what lecturer sees for marks not whether you look  elegant or not....",
+      "cleaned_text": "memorize whatever you gonna say during presentationlooking at the slides when present the materials just show your lack of confidence preparationthats what lecturer sees for marks not whether you look elegant or not",
+      "likes": 16,
+      "reply_count": 3,
+      "published_at": "2024-09-21T03:27:29Z",
+      "updated_at": "2024-09-21T03:27:29Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.059,
+        "neu": 0.775,
+        "pos": 0.165,
+        "compound": 0.6249
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 55,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 53.8,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugyhg7TCCzPTLsaHtH94AaABAg",
+      "author": "@HassanNoor-y4o",
+      "comment_text": "Excellent \ud83d\udc4d",
+      "cleaned_text": "excellent",
+      "likes": 7,
+      "reply_count": 0,
+      "published_at": "2024-05-27T01:55:57Z",
+      "updated_at": "2024-05-27T01:55:57Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.0,
+        "pos": 1.0,
+        "compound": 0.5719
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 31,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 41.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgzV79ysKBr5-WqAzM94AaABAg",
+      "author": "@dakshbhardwaj7481",
+      "comment_text": "good bro",
+      "cleaned_text": "good bro",
+      "likes": 2,
+      "reply_count": 1,
+      "published_at": "2025-05-20T10:42:39Z",
+      "updated_at": "2025-05-20T10:42:39Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.256,
+        "pos": 0.744,
+        "compound": 0.4404
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 27,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 35.3,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgzjAx_svf-WpiCiJxZ4AaABAg",
+      "author": "@AtharvJadhav-s7v",
+      "comment_text": "nice dude keep it up",
+      "cleaned_text": "nice dude keep it up",
+      "likes": 2,
+      "reply_count": 0,
+      "published_at": "2025-03-20T05:11:56Z",
+      "updated_at": "2025-03-20T05:11:56Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.588,
+        "pos": 0.412,
+        "compound": 0.4215
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 36,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 38.6,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugwwa7zC8BQcIjjjqwF4AaABAg",
+      "author": "@Jason-o5s",
+      "comment_text": "Cheer~~~the giving of something to someone, especially as part of a formal ceremony.\ud83d\ude0a",
+      "cleaned_text": "cheerthe giving of something to someone especially as part of a formal ceremony",
+      "likes": 12,
+      "reply_count": 1,
+      "published_at": "2024-09-26T04:23:04Z",
+      "updated_at": "2024-09-26T04:23:04Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.821,
+        "pos": 0.179,
+        "compound": 0.34
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 51,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 47.2,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgwAR-STHnW_b0ZSY0N4AaABAg",
+      "author": "@anasbak8068",
+      "comment_text": "And and and avoid the repetition and speak relaxed .",
+      "cleaned_text": "and and and avoid the repetition and speak relaxed",
+      "likes": 77,
+      "reply_count": 3,
+      "published_at": "2024-05-15T06:44:18Z",
+      "updated_at": "2024-05-15T06:44:18Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.177,
+        "neu": 0.565,
+        "pos": 0.258,
+        "compound": 0.25
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 56,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 52.5,
+      "is_favorite": false
+    }
+  ],
+  "negative_comments": {
+    "constructive_criticism": [],
+    "critical_complaints": [],
+    "toxic_comments": []
+  },
+  "toxic_comments": [],
+  "comments": [
+    {
+      "comment_id": "Ugwwa7zC8BQcIjjjqwF4AaABAg",
+      "author": "@Jason-o5s",
+      "comment_text": "Cheer~~~the giving of something to someone, especially as part of a formal ceremony.\ud83d\ude0a",
+      "cleaned_text": "cheerthe giving of something to someone especially as part of a formal ceremony",
+      "likes": 12,
+      "reply_count": 1,
+      "published_at": "2024-09-26T04:23:04Z",
+      "updated_at": "2024-09-26T04:23:04Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.821,
+        "pos": 0.179,
+        "compound": 0.34
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 51,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 47.2,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugzv5or_PAaB2_T4RP94AaABAg",
+      "author": "@tktvenglish000",
+      "comment_text": "Good confidence bro\u2764\ud83d\ude2e",
+      "cleaned_text": "good confidence bro",
+      "likes": 81,
+      "reply_count": 0,
+      "published_at": "2024-01-07T04:35:37Z",
+      "updated_at": "2024-01-07T04:35:37Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.139,
+        "pos": 0.861,
+        "compound": 0.7351
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 50,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 57.5,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgwuekSW6wNpnwnU3oN4AaABAg",
+      "author": "@AbhayDeepSirKiDuniya",
+      "comment_text": "\u2764\ud83c\udf89 \u0950 \u0928\u092e\u0903 \u0936\u093f\u0935\u093e\u092f",
+      "cleaned_text": "",
+      "likes": 12,
+      "reply_count": 0,
+      "published_at": "2024-10-26T17:34:26Z",
+      "updated_at": "2024-10-26T17:34:26Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 40,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 37.7,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugyhg7TCCzPTLsaHtH94AaABAg",
+      "author": "@HassanNoor-y4o",
+      "comment_text": "Excellent \ud83d\udc4d",
+      "cleaned_text": "excellent",
+      "likes": 7,
+      "reply_count": 0,
+      "published_at": "2024-05-27T01:55:57Z",
+      "updated_at": "2024-05-27T01:55:57Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.0,
+        "pos": 1.0,
+        "compound": 0.5719
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 31,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 41.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgwAR-STHnW_b0ZSY0N4AaABAg",
+      "author": "@anasbak8068",
+      "comment_text": "And and and avoid the repetition and speak relaxed .",
+      "cleaned_text": "and and and avoid the repetition and speak relaxed",
+      "likes": 77,
+      "reply_count": 3,
+      "published_at": "2024-05-15T06:44:18Z",
+      "updated_at": "2024-05-15T06:44:18Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.177,
+        "neu": 0.565,
+        "pos": 0.258,
+        "compound": 0.25
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 56,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 52.5,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgyexDLqfXP10BaUd1x4AaABAg",
+      "author": "@irfankhanzz8836",
+      "comment_text": "\u2764\u2764\u2764",
+      "cleaned_text": "",
+      "likes": 4,
+      "reply_count": 0,
+      "published_at": "2024-05-11T00:47:18Z",
+      "updated_at": "2024-05-11T00:47:18Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 28,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 30.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgzjAx_svf-WpiCiJxZ4AaABAg",
+      "author": "@AtharvJadhav-s7v",
+      "comment_text": "nice dude keep it up",
+      "cleaned_text": "nice dude keep it up",
+      "likes": 2,
+      "reply_count": 0,
+      "published_at": "2025-03-20T05:11:56Z",
+      "updated_at": "2025-03-20T05:11:56Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.588,
+        "pos": 0.412,
+        "compound": 0.4215
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 36,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 38.6,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugw5tMJFW2vt2vsLlOJ4AaABAg",
+      "author": "@HHH-Media",
+      "comment_text": "Superb \ud83d\udc97",
+      "cleaned_text": "superb",
+      "likes": 1,
+      "reply_count": 0,
+      "published_at": "2025-07-25T20:09:11Z",
+      "updated_at": "2025-07-25T20:09:11Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.0,
+        "pos": 1.0,
+        "compound": 0.6249
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 28,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 37.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgxLFxH7if-QX8jWAWx4AaABAg",
+      "author": "@shabnaaz2001",
+      "comment_text": "wht is project name",
+      "cleaned_text": "wht is project name",
+      "likes": 29,
+      "reply_count": 1,
+      "published_at": "2022-11-18T15:11:15Z",
+      "updated_at": "2022-11-18T15:11:15Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 43,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 41.1,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgwlGLZTaeLUwwZ8zGZ4AaABAg",
+      "author": "@hassanmahmoud4538",
+      "comment_text": "Hi\nWhat is the project name",
+      "cleaned_text": "hi what is the project name",
+      "likes": 10,
+      "reply_count": 1,
+      "published_at": "2023-02-15T05:42:02Z",
+      "updated_at": "2023-02-15T05:42:02Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 39,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 36.8,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgwYPPFw4togNf5G7sR4AaABAg",
+      "author": "@tauhatalks2959",
+      "comment_text": "Good confidence bro \ud83d\ude2e in front of girls \ud83d\ude09\ud83d\ude02",
+      "cleaned_text": "good confidence bro in front of girls",
+      "likes": 193,
+      "reply_count": 10,
+      "published_at": "2023-07-06T17:09:12Z",
+      "updated_at": "2023-07-06T17:09:12Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.446,
+        "pos": 0.554,
+        "compound": 0.7351
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 64,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 65.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugz7UBCPNjPeQOF0HT94AaABAg",
+      "author": "@atrangivaishu",
+      "comment_text": "\u2665\ufe0f",
+      "cleaned_text": "",
+      "likes": 2,
+      "reply_count": 0,
+      "published_at": "2024-09-30T17:21:54Z",
+      "updated_at": "2024-09-30T17:21:54Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 26,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 28.3,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugzi4gC2m5VnTG3aIHV4AaABAg",
+      "author": "@ComputerEngg",
+      "comment_text": "College name?",
+      "cleaned_text": "college name",
+      "likes": 7,
+      "reply_count": 1,
+      "published_at": "2023-11-22T06:52:56Z",
+      "updated_at": "2023-11-22T06:52:56Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 39,
+        "quality_grade": "Low",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 48.0,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgyenSfnk-MX3yKYX-x4AaABAg",
+      "author": "@SeXuctive",
+      "comment_text": "What was project ideas?",
+      "cleaned_text": "what was project ideas",
+      "likes": 4,
+      "reply_count": 1,
+      "published_at": "2024-10-19T06:26:27Z",
+      "updated_at": "2024-10-19T06:26:27Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 47,
+        "quality_grade": "Low",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 50.0,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugx0OpR0Tb-1pAXys2p4AaABAg",
+      "author": "@products-jg5ig",
+      "comment_text": "King \ud83d\udc51",
+      "cleaned_text": "king",
+      "likes": 0,
+      "reply_count": 0,
+      "published_at": "2025-08-22T19:32:09Z",
+      "updated_at": "2025-08-22T19:32:09Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 31,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 27.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgzV79ysKBr5-WqAzM94AaABAg",
+      "author": "@dakshbhardwaj7481",
+      "comment_text": "good bro",
+      "cleaned_text": "good bro",
+      "likes": 2,
+      "reply_count": 1,
+      "published_at": "2025-05-20T10:42:39Z",
+      "updated_at": "2025-05-20T10:42:39Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.256,
+        "pos": 0.744,
+        "compound": 0.4404
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 1,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 27,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 35.3,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugx2SWBIwNVi2FLwGBx4AaABAg",
+      "author": "@muktarabubakarm.1071",
+      "comment_text": "Good Sir All the best",
+      "cleaned_text": "good sir all the best",
+      "likes": 4,
+      "reply_count": 0,
+      "published_at": "2024-05-21T16:39:43Z",
+      "updated_at": "2024-05-21T16:39:43Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 0.297,
+        "pos": 0.703,
+        "compound": 0.7964
+      },
+      "primary_emotion": "happiness",
+      "emotion_scores": {
+        "happiness": 2,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 41,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 47.5,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugz3jBBPEYWbdDQ99cN4AaABAg",
+      "author": "@beerus-sama-U07",
+      "comment_text": "Memorize whatever you gonna say during presentation.....looking at the slides when present the materials just show your lack of confidence & preparation.....that's what lecturer sees for marks not whether you look  elegant or not....",
+      "cleaned_text": "memorize whatever you gonna say during presentationlooking at the slides when present the materials just show your lack of confidence preparationthats what lecturer sees for marks not whether you look elegant or not",
+      "likes": 16,
+      "reply_count": 3,
+      "published_at": "2024-09-21T03:27:29Z",
+      "updated_at": "2024-09-21T03:27:29Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Positive",
+      "sentiment_scores": {
+        "neg": 0.059,
+        "neu": 0.775,
+        "pos": 0.165,
+        "compound": 0.6249
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 55,
+        "quality_grade": "Average",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 53.8,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "Ugz9KpVmsMc-bcaYf3F4AaABAg",
+      "author": "@MaregAlem",
+      "comment_text": "yessss",
+      "cleaned_text": "yessss",
+      "likes": 0,
+      "reply_count": 0,
+      "published_at": "2025-11-20T08:09:32Z",
+      "updated_at": "2025-11-20T08:09:32Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 31,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 27.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgxamLEsaHbjJxkGfhh4AaABAg",
+      "author": "@\u0627\u0644\u0633\u0627\u062f\u0627\u062a\u0646\u0627\u0638\u0631\u06c1\u062d\u0641\u0638\u0627\u0648\u0631\u062a\u0641\u0633\u06cc\u0631\u0642\u0631\u0622\u0646\u06a9\u0631\u06cc",
+      "comment_text": "Assalamualaikum",
+      "cleaned_text": "assalamualaikum",
+      "likes": 0,
+      "reply_count": 0,
+      "published_at": "2025-11-05T05:24:06Z",
+      "updated_at": "2025-11-05T05:24:06Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 31,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Low Effort",
+        "explanation": "Short or generic reaction."
+      },
+      "best_score": 27.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "UgxNwQ-u1Ndm5F4h4gp4AaABAg",
+      "author": "@shubham-yj2iw",
+      "comment_text": "Abe slide pdhne ko presentation nahi bolte",
+      "cleaned_text": "abe slide pdhne ko presentation nahi bolte",
+      "likes": 9,
+      "reply_count": 1,
+      "published_at": "2024-07-15T02:21:22Z",
+      "updated_at": "2024-07-15T02:21:22Z",
+      "video_id": "qI5YvAU9q64",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 39,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "General Discussion",
+        "explanation": "Standard audience commentary and discussion."
+      },
+      "best_score": 36.6,
+      "is_favorite": false
+    }
+  ]
+}

@@ -1,0 +1,657 @@
+{
+  "session_id": "sess_04d5bfd8cd",
+  "video_id": "vid_gamng_3",
+  "video_title": "Ranked Gaming Fails & Rants",
+  "channel_name": "ToxicGamer99",
+  "video_info": {
+    "video_id": "vid_gamng_3",
+    "title": "Ranked Gaming Fails & Rants",
+    "channel_title": "ToxicGamer99",
+    "thumbnail_url": "https://i.ytimg.com/vi/vid_gamng_3/hqdefault.jpg",
+    "view_count": 95000,
+    "like_count": 3100,
+    "comment_count": 3
+  },
+  "timestamp": "2026-09-08 14:44:11",
+  "total_comments": 3,
+  "metrics": {
+    "total_comments": 3,
+    "positive_count": 0,
+    "positive_percentage": 0.0,
+    "neutral_count": 0,
+    "neutral_percentage": 0.0,
+    "negative_count": 3,
+    "negative_percentage": 100.0,
+    "toxic_count": 1,
+    "toxicity_percentage": 33.3,
+    "constructive_count": 0,
+    "constructive_percentage": 0.0,
+    "average_quality": 20.3,
+    "dominant_emotion": "anger",
+    "dominant_emotion_percentage": 66.7,
+    "emotion_totals": {
+      "happiness": 0,
+      "sadness": 0,
+      "anger": 2,
+      "fear": 0,
+      "surprise": 0,
+      "neutral": 1
+    },
+    "emotion_interpretation": "A notable portion of viewers felt frustrated or annoyed (66.7% Anger signals), typically tied to technical errors, pacing issues, or audio balance."
+  },
+  "topics": [
+    {
+      "topic": "Are",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Idiot",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Delete",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Uninstall",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Game",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Trash",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Loser",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Horrible",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Gameplay",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Completely",
+      "count": 1,
+      "type": "word"
+    }
+  ],
+  "insights": {
+    "audience_mood": "Critical audience reception (100.0% negative vs 0.0% positive). Significant friction detected in content delivery or topic reception.",
+    "mood_status": "Attention Needed",
+    "what_viewers_loved": [
+      "Overall tutorial quality, guidance, and helpful insights."
+    ],
+    "common_complaints": [
+      "No major widespread complaints detected; isolated minor questions only."
+    ],
+    "potential_problems": [
+      "Elevated toxicity rate (33.3%): Consider moderating abusive comments or enabling strict filter rules.",
+      "High negative sentiment (100.0%): Audience confusion or discontent indicates a need for pinned clarification comments."
+    ],
+    "recommendations": [
+      "Continue the current pacing and structure; viewers find the instructional style highly effective.",
+      "Engage with top constructive comments to foster deeper community retention."
+    ]
+  },
+  "best_comments": [
+    {
+      "comment_id": "c9",
+      "author": "Gamer3",
+      "comment_text": "Worst play I have ever seen in my life.",
+      "cleaned_text": "worst play i have ever seen in my life",
+      "likes": 2,
+      "reply_count": 0,
+      "published_at": "2026-03-01",
+      "updated_at": "",
+      "video_id": "vid_gamng_3",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.328,
+        "neu": 0.48,
+        "pos": 0.192,
+        "compound": -0.4019
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 34,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Critical Complaint",
+        "explanation": "Negative audience reaction expressing dissatisfaction or confusion."
+      },
+      "best_score": 25.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c8",
+      "author": "Gamer2",
+      "comment_text": "Horrible gameplay, completely unwatchable and terrible.",
+      "cleaned_text": "horrible gameplay completely unwatchable and terrible",
+      "likes": 8,
+      "reply_count": 0,
+      "published_at": "2026-03-01",
+      "updated_at": "",
+      "video_id": "vid_gamng_3",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.632,
+        "neu": 0.368,
+        "pos": 0.0,
+        "compound": -0.7823
+      },
+      "primary_emotion": "anger",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 1,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 27,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Critical Complaint",
+        "explanation": "Negative audience reaction expressing dissatisfaction or confusion."
+      },
+      "best_score": 19.8,
+      "is_favorite": false
+    }
+  ],
+  "constructive_comments": [],
+  "most_engaged": [
+    {
+      "comment_id": "c8",
+      "author": "Gamer2",
+      "comment_text": "Horrible gameplay, completely unwatchable and terrible.",
+      "cleaned_text": "horrible gameplay completely unwatchable and terrible",
+      "likes": 8,
+      "reply_count": 0,
+      "published_at": "2026-03-01",
+      "updated_at": "",
+      "video_id": "vid_gamng_3",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.632,
+        "neu": 0.368,
+        "pos": 0.0,
+        "compound": -0.7823
+      },
+      "primary_emotion": "anger",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 1,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 27,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Critical Complaint",
+        "explanation": "Negative audience reaction expressing dissatisfaction or confusion."
+      },
+      "best_score": 19.8,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c7",
+      "author": "Gamer1",
+      "comment_text": "You are an idiot, delete your channel and uninstall the game trash loser.",
+      "cleaned_text": "you are an idiot delete your channel and uninstall the game trash loser",
+      "likes": 5,
+      "reply_count": 0,
+      "published_at": "2026-03-01",
+      "updated_at": "",
+      "video_id": "vid_gamng_3",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.379,
+        "neu": 0.621,
+        "pos": 0.0,
+        "compound": -0.7717
+      },
+      "primary_emotion": "anger",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 1,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": true,
+        "toxicity_score": 1.0,
+        "status": "Toxic",
+        "categories": [
+          "insult",
+          "harassment"
+        ],
+        "primary_category": "Insult"
+      },
+      "quality": {
+        "quality_score": 0,
+        "quality_grade": "Very Low",
+        "is_constructive": false,
+        "feedback_type": "Toxic/Abusive",
+        "explanation": "Comment contains offensive, hostile, or abusive language."
+      },
+      "best_score": -51.9,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c9",
+      "author": "Gamer3",
+      "comment_text": "Worst play I have ever seen in my life.",
+      "cleaned_text": "worst play i have ever seen in my life",
+      "likes": 2,
+      "reply_count": 0,
+      "published_at": "2026-03-01",
+      "updated_at": "",
+      "video_id": "vid_gamng_3",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.328,
+        "neu": 0.48,
+        "pos": 0.192,
+        "compound": -0.4019
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 34,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Critical Complaint",
+        "explanation": "Negative audience reaction expressing dissatisfaction or confusion."
+      },
+      "best_score": 25.4,
+      "is_favorite": false
+    }
+  ],
+  "most_positive": [],
+  "negative_comments": {
+    "constructive_criticism": [],
+    "critical_complaints": [
+      {
+        "comment_id": "c8",
+        "author": "Gamer2",
+        "comment_text": "Horrible gameplay, completely unwatchable and terrible.",
+        "cleaned_text": "horrible gameplay completely unwatchable and terrible",
+        "likes": 8,
+        "reply_count": 0,
+        "published_at": "2026-03-01",
+        "updated_at": "",
+        "video_id": "vid_gamng_3",
+        "sentiment": "Negative",
+        "sentiment_scores": {
+          "neg": 0.632,
+          "neu": 0.368,
+          "pos": 0.0,
+          "compound": -0.7823
+        },
+        "primary_emotion": "anger",
+        "emotion_scores": {
+          "happiness": 0,
+          "sadness": 0,
+          "anger": 1,
+          "fear": 0,
+          "surprise": 0,
+          "neutral": 0
+        },
+        "toxicity": {
+          "is_toxic": false,
+          "toxicity_score": 0.0,
+          "status": "Safe",
+          "categories": [],
+          "primary_category": "Non-toxic"
+        },
+        "quality": {
+          "quality_score": 27,
+          "quality_grade": "Low",
+          "is_constructive": false,
+          "feedback_type": "Critical Complaint",
+          "explanation": "Negative audience reaction expressing dissatisfaction or confusion."
+        },
+        "best_score": 19.8,
+        "is_favorite": false
+      },
+      {
+        "comment_id": "c9",
+        "author": "Gamer3",
+        "comment_text": "Worst play I have ever seen in my life.",
+        "cleaned_text": "worst play i have ever seen in my life",
+        "likes": 2,
+        "reply_count": 0,
+        "published_at": "2026-03-01",
+        "updated_at": "",
+        "video_id": "vid_gamng_3",
+        "sentiment": "Negative",
+        "sentiment_scores": {
+          "neg": 0.328,
+          "neu": 0.48,
+          "pos": 0.192,
+          "compound": -0.4019
+        },
+        "primary_emotion": "neutral",
+        "emotion_scores": {
+          "happiness": 0,
+          "sadness": 0,
+          "anger": 0,
+          "fear": 0,
+          "surprise": 0,
+          "neutral": 1
+        },
+        "toxicity": {
+          "is_toxic": false,
+          "toxicity_score": 0.0,
+          "status": "Safe",
+          "categories": [],
+          "primary_category": "Non-toxic"
+        },
+        "quality": {
+          "quality_score": 34,
+          "quality_grade": "Low",
+          "is_constructive": false,
+          "feedback_type": "Critical Complaint",
+          "explanation": "Negative audience reaction expressing dissatisfaction or confusion."
+        },
+        "best_score": 25.4,
+        "is_favorite": false
+      }
+    ],
+    "toxic_comments": [
+      {
+        "comment_id": "c7",
+        "author": "Gamer1",
+        "comment_text": "You are an idiot, delete your channel and uninstall the game trash loser.",
+        "cleaned_text": "you are an idiot delete your channel and uninstall the game trash loser",
+        "likes": 5,
+        "reply_count": 0,
+        "published_at": "2026-03-01",
+        "updated_at": "",
+        "video_id": "vid_gamng_3",
+        "sentiment": "Negative",
+        "sentiment_scores": {
+          "neg": 0.379,
+          "neu": 0.621,
+          "pos": 0.0,
+          "compound": -0.7717
+        },
+        "primary_emotion": "anger",
+        "emotion_scores": {
+          "happiness": 0,
+          "sadness": 0,
+          "anger": 1,
+          "fear": 0,
+          "surprise": 0,
+          "neutral": 0
+        },
+        "toxicity": {
+          "is_toxic": true,
+          "toxicity_score": 1.0,
+          "status": "Toxic",
+          "categories": [
+            "insult",
+            "harassment"
+          ],
+          "primary_category": "Insult"
+        },
+        "quality": {
+          "quality_score": 0,
+          "quality_grade": "Very Low",
+          "is_constructive": false,
+          "feedback_type": "Toxic/Abusive",
+          "explanation": "Comment contains offensive, hostile, or abusive language."
+        },
+        "best_score": -51.9,
+        "is_favorite": false
+      }
+    ]
+  },
+  "toxic_comments": [
+    {
+      "comment_id": "c7",
+      "author": "Gamer1",
+      "comment_text": "You are an idiot, delete your channel and uninstall the game trash loser.",
+      "cleaned_text": "you are an idiot delete your channel and uninstall the game trash loser",
+      "likes": 5,
+      "reply_count": 0,
+      "published_at": "2026-03-01",
+      "updated_at": "",
+      "video_id": "vid_gamng_3",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.379,
+        "neu": 0.621,
+        "pos": 0.0,
+        "compound": -0.7717
+      },
+      "primary_emotion": "anger",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 1,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": true,
+        "toxicity_score": 1.0,
+        "status": "Toxic",
+        "categories": [
+          "insult",
+          "harassment"
+        ],
+        "primary_category": "Insult"
+      },
+      "quality": {
+        "quality_score": 0,
+        "quality_grade": "Very Low",
+        "is_constructive": false,
+        "feedback_type": "Toxic/Abusive",
+        "explanation": "Comment contains offensive, hostile, or abusive language."
+      },
+      "best_score": -51.9,
+      "is_favorite": false
+    }
+  ],
+  "comments": [
+    {
+      "comment_id": "c7",
+      "author": "Gamer1",
+      "comment_text": "You are an idiot, delete your channel and uninstall the game trash loser.",
+      "cleaned_text": "you are an idiot delete your channel and uninstall the game trash loser",
+      "likes": 5,
+      "reply_count": 0,
+      "published_at": "2026-03-01",
+      "updated_at": "",
+      "video_id": "vid_gamng_3",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.379,
+        "neu": 0.621,
+        "pos": 0.0,
+        "compound": -0.7717
+      },
+      "primary_emotion": "anger",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 1,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": true,
+        "toxicity_score": 1.0,
+        "status": "Toxic",
+        "categories": [
+          "insult",
+          "harassment"
+        ],
+        "primary_category": "Insult"
+      },
+      "quality": {
+        "quality_score": 0,
+        "quality_grade": "Very Low",
+        "is_constructive": false,
+        "feedback_type": "Toxic/Abusive",
+        "explanation": "Comment contains offensive, hostile, or abusive language."
+      },
+      "best_score": -51.9,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c8",
+      "author": "Gamer2",
+      "comment_text": "Horrible gameplay, completely unwatchable and terrible.",
+      "cleaned_text": "horrible gameplay completely unwatchable and terrible",
+      "likes": 8,
+      "reply_count": 0,
+      "published_at": "2026-03-01",
+      "updated_at": "",
+      "video_id": "vid_gamng_3",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.632,
+        "neu": 0.368,
+        "pos": 0.0,
+        "compound": -0.7823
+      },
+      "primary_emotion": "anger",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 1,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 0
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 27,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Critical Complaint",
+        "explanation": "Negative audience reaction expressing dissatisfaction or confusion."
+      },
+      "best_score": 19.8,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c9",
+      "author": "Gamer3",
+      "comment_text": "Worst play I have ever seen in my life.",
+      "cleaned_text": "worst play i have ever seen in my life",
+      "likes": 2,
+      "reply_count": 0,
+      "published_at": "2026-03-01",
+      "updated_at": "",
+      "video_id": "vid_gamng_3",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.328,
+        "neu": 0.48,
+        "pos": 0.192,
+        "compound": -0.4019
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 34,
+        "quality_grade": "Low",
+        "is_constructive": false,
+        "feedback_type": "Critical Complaint",
+        "explanation": "Negative audience reaction expressing dissatisfaction or confusion."
+      },
+      "best_score": 25.4,
+      "is_favorite": false
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+[
+    {
+        "original_text": "Today I am happy and excited about my new project.",
+        "cleaned_text": "today i am happy and excited about my new project",
+        "primary_emotion": "happiness",
+        "emotion_scores": {
+            "happiness": 2,
+            "sadness": 0,
+            "anger": 0,
+            "fear": 0,
+            "surprise": 0,
+            "neutral": 0
+        },
+        "sentiment": "Positive",
+        "sentiment_scores": {
+            "neg": 0.0,
+            "neu": 0.534,
+            "pos": 0.466,
+            "compound": 0.7269
+        },
+        "timestamp": "2026-09-03 22:46:11.008316"
+    },
+    {
+        "original_text": "\nI am very happy today because I completed my project.\nHowever, I am also nervous about my presentation tomorrow.\n",
+        "cleaned_text": "i am very happy today because i completed my project however i am also nervous about my presentation tomorrow",
+        "primary_emotion": "happiness",
+        "emotion_scores": {
+            "happiness": 1,
+            "sadness": 0,
+            "anger": 0,
+            "fear": 1,
+            "surprise": 0,
+            "neutral": 0
+        },
+        "sentiment": "Positive",
+        "sentiment_scores": {
+            "neg": 0.105,
+            "neu": 0.697,
+            "pos": 0.199,
+            "compound": 0.4391
+        },
+        "timestamp": "2026-09-03 22:49:50.887703"
+    },
+    {
+        "original_text": "\nI am very happy today because I completed my project.\nHowever, I am also nervous about my presentation tomorrow.\n",
+        "cleaned_text": "i am very happy today because i completed my project however i am also nervous about my presentation tomorrow",
+        "primary_emotion": "happiness",
+        "emotion_scores": {
+            "happiness": 1,
+            "sadness": 0,
+            "anger": 0,
+            "fear": 1,
+            "surprise": 0,
+            "neutral": 0
+        },
+        "sentiment": "Positive",
+        "sentiment_scores": {
+            "neg": 0.105,
+            "neu": 0.697,
+            "pos": 0.199,
+            "compound": 0.4391
+        },
+        "timestamp": "2026-09-03 22:54:31.637861"
+    },
+    {
+        "original_text": "\nI am very happy today because I completed my project.\nHowever, I am also nervous about my presentation tomorrow.\n",
+        "cleaned_text": "i am very happy today because i completed my project however i am also nervous about my presentation tomorrow",
+        "primary_emotion": "happiness",
+        "emotion_scores": {
+            "happiness": 1,
+            "sadness": 0,
+            "anger": 0,
+            "fear": 1,
+            "surprise": 0,
+            "neutral": 0
+        },
+        "sentiment": "Positive",
+        "sentiment_scores": {
+            "neg": 0.105,
+            "neu": 0.697,
+            "pos": 0.199,
+            "compound": 0.4391
+        },
+        "timestamp": "2026-09-03 22:55:43.450534"
+    },
+    {
+        "original_text": "i am very happy because ii got a job",
+        "cleaned_text": "i am very happy because ii got a job",
+        "primary_emotion": "happiness",
+        "emotion_scores": {
+            "happiness": 1,
+            "sadness": 0,
+            "anger": 0,
+            "fear": 0,
+            "surprise": 0,
+            "neutral": 0
+        },
+        "sentiment": "Positive",
+        "sentiment_scores": {
+            "neg": 0.0,
+            "neu": 0.6,
+            "pos": 0.4,
+            "compound": 0.6115
+        },
+        "timestamp": "2026-09-03 23:11:54.254954"
+    },
+    {
+        "original_text": "i am very happy because ii got a job",
+        "cleaned_text": "i am very happy because ii got a job",
+        "primary_emotion": "happiness",
+        "emotion_scores": {
+            "happiness": 1,
+            "sadness": 0,
+            "anger": 0,
+            "fear": 0,
+            "surprise": 0,
+            "neutral": 0
+        },
+        "sentiment": "Positive",
+        "sentiment_scores": {
+            "neg": 0.0,
+            "neu": 0.6,
+            "pos": 0.4,
+            "compound": 0.6115
+        },
+        "timestamp": "2026-09-03 23:12:39.338967"
+    },
+    {
+        "original_text": "I am very happy today because I completed my project, but I am nervous about tomorrow.",
+        "cleaned_text": "i am very happy today because i completed my project but i am nervous about tomorrow",
+        "primary_emotion": "happiness",
+        "emotion_scores": {
+            "happiness": 1,
+            "sadness": 0,
+            "anger": 0,
+            "fear": 1,
+            "surprise": 0,
+            "neutral": 0
+        },
+        "sentiment": "Neutral",
+        "sentiment_scores": {
+            "neg": 0.164,
+            "neu": 0.681,
+            "pos": 0.155,
+            "compound": -0.0396
+        },
+        "timestamp": "2026-09-03 23:13:13.848031"
+    },
+    {
+        "original_text": "I am very happy today but nervous about tomorrow.",
+        "cleaned_text": "i am very happy today but nervous about tomorrow",
+        "primary_emotion": "happiness",
+        "emotion_scores": {
+            "happiness": 1,
+            "sadness": 0,
+            "anger": 0,
+            "fear": 1,
+            "surprise": 0,
+            "neutral": 0
+        },
+        "sentiment": "Neutral",
+        "sentiment_scores": {
+            "neg": 0.238,
+            "neu": 0.538,
+            "pos": 0.224,
+            "compound": -0.0396
+        },
+        "timestamp": "2026-09-03 23:20:13.407356"
+    },
+    {
+        "original_text": "i am very happy",
+        "cleaned_text": "i am very happy",
+        "primary_emotion": "happiness",
+        "emotion_scores": {
+            "happiness": 1,
+            "sadness": 0,
+            "anger": 0,
+            "fear": 0,
+            "surprise": 0,
+            "neutral": 0
+        },
+        "sentiment": "Positive",
+        "sentiment_scores": {
+            "neg": 0.0,
+            "neu": 0.334,
+            "pos": 0.666,
+            "compound": 0.6115
+        },
+        "timestamp": "2026-09-04 09:06:59.433365"
+    },
+    {
+        "original_text": "today i am happy because i got job\r\n",
+        "cleaned_text": "today i am happy because i got job",
+        "primary_emotion": "happiness",
+        "emotion_scores": {
+            "happiness": 1,
+            "sadness": 0,
+            "anger": 0,
+            "fear": 0,
+            "surprise": 0,
+            "neutral": 0
+        },
+        "sentiment": "Positive",
+        "sentiment_scores": {
+            "neg": 0.0,
+            "neu": 0.575,
+            "pos": 0.425,
+            "compound": 0.5719
+        },
+        "timestamp": "2026-09-08 13:49:23.393252"
+    },
+    {
+        "original_text": "I am so proud and happy with my results!",
+        "cleaned_text": "i am so proud and happy with my results",
+        "primary_emotion": "happiness",
+        "emotion_scores": {
+            "happiness": 1,
+            "sadness": 0,
+            "anger": 0,
+            "fear": 0,
+            "surprise": 0,
+            "neutral": 0
+        },
+        "sentiment": "Positive",
+        "sentiment_scores": {
+            "neg": 0.0,
+            "neu": 0.449,
+            "pos": 0.551,
+            "compound": 0.8104
+        },
+        "timestamp": "2026-09-08 14:18:21.441916"
+    },
+    {
+        "original_text": "\nI am very happy today because I completed my project.\nHowever, I am also nervous about my presentation tomorrow.\n",
+        "cleaned_text": "i am very happy today because i completed my project however i am also nervous about my presentation tomorrow",
+        "primary_emotion": "happiness",
+        "emotion_scores": {
+            "happiness": 1,
+            "sadness": 0,
+            "anger": 0,
+            "fear": 1,
+            "surprise": 0,
+            "neutral": 0
+        },
+        "sentiment": "Positive",
+        "sentiment_scores": {
+            "neg": 0.105,
+            "neu": 0.697,
+            "pos": 0.199,
+            "compound": 0.4391
+        },
+        "timestamp": "2026-09-08 14:18:49.975074"
+    },
+    {
+        "original_text": "I am so proud and happy with my results!",
+        "cleaned_text": "i am so proud and happy with my results",
+        "primary_emotion": "happiness",
+        "emotion_scores": {
+            "happiness": 1,
+            "sadness": 0,
+            "anger": 0,
+            "fear": 0,
+            "surprise": 0,
+            "neutral": 0
+        },
+        "sentiment": "Positive",
+        "sentiment_scores": {
+            "neg": 0.0,
+            "neu": 0.449,
+            "pos": 0.551,
+            "compound": 0.8104
+        },
+        "timestamp": "2026-09-08 14:44:31.759917"
+    },
+    {
+        "original_text": "\nI am very happy today because I completed my project.\nHowever, I am also nervous about my presentation tomorrow.\n",
+        "cleaned_text": "i am very happy today because i completed my project however i am also nervous about my presentation tomorrow",
+        "primary_emotion": "happiness",
+        "emotion_scores": {
+            "happiness": 1,
+            "sadness": 0,
+            "anger": 0,
+            "fear": 1,
+            "surprise": 0,
+            "neutral": 0
+        },
+        "sentiment": "Positive",
+        "sentiment_scores": {
+            "neg": 0.105,
+            "neu": 0.697,
+            "pos": 0.199,
+            "compound": 0.4391
+        },
+        "timestamp": "2026-09-08 14:44:40.551916"
+    },
+    {
+        "original_text": " i am very happy\r\n",
+        "cleaned_text": "i am very happy",
+        "primary_emotion": "happiness",
+        "emotion_scores": {
+            "happiness": 1,
+            "sadness": 0,
+            "anger": 0,
+            "fear": 0,
+            "surprise": 0,
+            "neutral": 0
+        },
+        "sentiment": "Positive",
+        "sentiment_scores": {
+            "neg": 0.0,
+            "neu": 0.334,
+            "pos": 0.666,
+            "compound": 0.6115
+        },
+        "timestamp": "2026-09-09 09:03:59.138763"
+    },
+    {
+        "original_text": "i am very happy\r\n",
+        "cleaned_text": "i am very happy",
+        "primary_emotion": "happiness",
+        "emotion_scores": {
+            "happiness": 1,
+            "sadness": 0,
+            "anger": 0,
+            "fear": 0,
+            "surprise": 0,
+            "neutral": 0
+        },
+        "sentiment": "Positive",
+        "sentiment_scores": {
+            "neg": 0.0,
+            "neu": 0.334,
+            "pos": 0.666,
+            "compound": 0.6115
+        },
+        "timestamp": "2026-09-09 20:15:34.999731"
+    }
+]

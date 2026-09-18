@@ -1,0 +1,342 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard | AI YouTube Comment Intelligence{% endblock %}
+
+{% block content %}
+<!-- Real Video Metadata Header -->
+<div class="card" style="margin-bottom: 24px; padding: 20px 24px; background: linear-gradient(135deg, var(--bg-card), var(--bg-card-subtle)); border-left: 5px solid var(--primary);">
+    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
+        <div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap;">
+            {% if session_data.video_info and session_data.video_info.thumbnail_url %}
+            <div style="position: relative; border-radius: var(--radius-md); overflow: hidden; box-shadow: var(--shadow-md); width: 140px; height: 80px; flex-shrink: 0; background: #000;">
+                <img src="{{ session_data.video_info.thumbnail_url }}" alt="Video Thumbnail" style="width: 100%; height: 100%; object-fit: cover;" />
+            </div>
+            {% else %}
+            <div style="width: 60px; height: 60px; border-radius: var(--radius-md); background: var(--primary-light); color: var(--primary); display: flex; align-items: center; justify-content: center; font-size: 1.8rem; flex-shrink: 0;">
+                ▶
+            </div>
+            {% endif %}
+
+            <div>
+                <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 4px;">
+                    <span class="badge badge-constructive">
+                        {% if session_data.video_id %}YouTube: {{ session_data.video_id }}{% else %}Uploaded Comments{% endif %}
+                    </span>
+                    <span style="font-size: 0.8rem; color: var(--text-muted);">{{ session_data.timestamp }}</span>
+                </div>
+                <h1 class="page-heading" style="margin: 0; font-size: 1.4rem; line-height: 1.3;">
+                    {{ session_data.video_title }}
+                </h1>
+                <div style="margin-top: 6px; font-size: 0.85rem; color: var(--text-muted); display: flex; align-items: center; gap: 14px; flex-wrap: wrap;">
+                    <span>by <strong style="color: var(--text-main);">{{ session_data.channel_name }}</strong></span>
+                    {% if session_data.video_info and session_data.video_info.view_count %}
+                    <span>👁️ <strong>{{ "{:,}".format(session_data.video_info.view_count) }}</strong> views</span>
+                    <span>👍 <strong>{{ "{:,}".format(session_data.video_info.like_count) }}</strong> likes</span>
+                    <span>💬 <strong>{{ "{:,}".format(session_data.video_info.comment_count) }}</strong> total comments</span>
+                    {% else %}
+                    <span>💬 <strong>{{ session_data.metrics.total_comments }}</strong> analyzed comments</span>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+        <div class="action-buttons-group">
+            <a href="/youtube-comments" class="btn btn-secondary btn-sm">
+                <span>📥 Analyze Another Video</span>
+            </a>
+            <a href="/api/export/{{ session_data.session_id }}?format=csv" class="btn btn-secondary btn-sm">
+                <span>📥 Export CSV</span>
+            </a>
+            <a href="/report?session_id={{ session_data.session_id }}" class="btn btn-primary btn-sm">
+                <span>📑 Creator Report</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- KPI Cards -->
+<div class="kpi-grid">
+    <div class="kpi-card">
+        <div class="kpi-header">
+            <span class="kpi-label">Analyzed Comments</span>
+            <div class="kpi-icon-wrap" style="background: var(--primary-light); color: var(--primary);">💬</div>
+        </div>
+        <div class="kpi-value">{{ session_data.metrics.total_comments }}</div>
+        <div class="kpi-meta">
+            <span>Dynamic retrieval</span>
+        </div>
+    </div>
+
+    <div class="kpi-card">
+        <div class="kpi-header">
+            <span class="kpi-label">Positive Sentiment</span>
+            <div class="kpi-icon-wrap" style="background: var(--success-light); color: var(--success);">😊</div>
+        </div>
+        <div class="kpi-value" style="color: var(--success);">{{ session_data.metrics.positive_percentage }}%</div>
+        <div class="kpi-meta">
+            <span class="kpi-pill badge-positive">{{ session_data.metrics.positive_count }} comments</span>
+        </div>
+    </div>
+
+    <div class="kpi-card">
+        <div class="kpi-header">
+            <span class="kpi-label">Neutral Sentiment</span>
+            <div class="kpi-icon-wrap" style="background: var(--bg-card-subtle); color: var(--text-muted);">⚖️</div>
+        </div>
+        <div class="kpi-value" style="color: var(--text-muted);">{{ session_data.metrics.neutral_percentage }}%</div>
+        <div class="kpi-meta">
+            <span class="kpi-pill badge-neutral">{{ session_data.metrics.neutral_count }} comments</span>
+        </div>
+    </div>
+
+    <div class="kpi-card">
+        <div class="kpi-header">
+            <span class="kpi-label">Negative Sentiment</span>
+            <div class="kpi-icon-wrap" style="background: var(--danger-light); color: var(--danger);">⚠️</div>
+        </div>
+        <div class="kpi-value" style="color: var(--danger);">{{ session_data.metrics.negative_percentage }}%</div>
+        <div class="kpi-meta">
+            <span class="kpi-pill badge-negative">{{ session_data.metrics.negative_count }} comments</span>
+        </div>
+    </div>
+
+    <div class="kpi-card">
+        <div class="kpi-header">
+            <span class="kpi-label">Toxicity Rate</span>
+            <div class="kpi-icon-wrap" style="background: rgba(239, 68, 68, 0.15); color: #ef4444;">🛡️</div>
+        </div>
+        <div class="kpi-value" style="color: {% if session_data.metrics.toxicity_percentage > 5.0 %}var(--danger){% else %}var(--success){% endif %};">
+            {{ session_data.metrics.toxicity_percentage }}%
+        </div>
+        <div class="kpi-meta">
+            <span class="kpi-pill {% if session_data.metrics.toxicity_percentage > 5.0 %}badge-toxic{% else %}badge-positive{% endif %}">
+                {{ session_data.metrics.toxic_count }} flagged
+            </span>
+        </div>
+    </div>
+
+    <div class="kpi-card">
+        <div class="kpi-header">
+            <span class="kpi-label">Avg Quality Score</span>
+            <div class="kpi-icon-wrap" style="background: var(--secondary-light); color: var(--secondary);">⭐</div>
+        </div>
+        <div class="kpi-value" style="color: var(--primary);">{{ session_data.metrics.average_quality }}<span style="font-size: 1rem; font-weight: 500; color: var(--text-muted);">/100</span></div>
+        <div class="kpi-meta">
+            <span class="kpi-pill badge-quality-good">{{ session_data.metrics.constructive_count }} constructive</span>
+        </div>
+    </div>
+</div>
+
+<!-- Visual Charts Section -->
+<div class="charts-dual-grid">
+    <!-- Chart 1: Sentiment Donut -->
+    <div class="card">
+        <div class="card-header">
+            <div>
+                <h3 class="card-title">
+                    <span>🍩 Sentiment Distribution</span>
+                </h3>
+                <p class="card-subtitle">Calculated dynamically from this video's retrieved comments</p>
+            </div>
+        </div>
+        <div class="chart-container">
+            <canvas id="sentimentDonutChart"></canvas>
+        </div>
+    </div>
+
+    <!-- Chart 2: Emotion Breakdown Horizontal Bars -->
+    <div class="card">
+        <div class="card-header">
+            <div>
+                <h3 class="card-title">
+                    <span>🎭 Emotional Resonance</span>
+                </h3>
+                <p class="card-subtitle">Emotion signals detected across this video's audience</p>
+            </div>
+            <a href="/emotions?session_id={{ session_data.session_id }}" class="btn btn-secondary btn-sm">
+                Explore Emotions
+            </a>
+        </div>
+        <div class="chart-container">
+            <canvas id="emotionBarsChart"></canvas>
+        </div>
+    </div>
+</div>
+
+<!-- Dominant Emotion & Dynamic Narrative Card -->
+<div class="card" style="border-left: 5px solid var(--primary); background: linear-gradient(to right, var(--bg-card), var(--bg-card-subtle));">
+    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
+        <div style="display: flex; align-items: center; gap: 16px;">
+            <div style="font-size: 2.5rem; line-height: 1;">
+                {% if session_data.metrics.dominant_emotion == 'happiness' %}😊
+                {% elif session_data.metrics.dominant_emotion == 'surprise' %}😲
+                {% elif session_data.metrics.dominant_emotion == 'sadness' %}😔
+                {% elif session_data.metrics.dominant_emotion == 'anger' %}😠
+                {% elif session_data.metrics.dominant_emotion == 'fear' %}😨
+                {% else %}😐
+                {% endif %}
+            </div>
+            <div>
+                <div style="font-size: 0.8rem; text-transform: uppercase; font-weight: 700; color: var(--text-muted); letter-spacing: 0.05em;">
+                    Dominant Audience Emotion
+                </div>
+                <div style="font-size: 1.45rem; font-weight: 800; color: var(--primary); text-transform: capitalize;">
+                    {{ session_data.metrics.dominant_emotion }} ({{ session_data.metrics.dominant_emotion_percentage }}% share)
+                </div>
+            </div>
+        </div>
+        <a href="/emotions?session_id={{ session_data.session_id }}" class="btn btn-secondary btn-sm">
+            View Emotion Deep Dive →
+        </a>
+    </div>
+    <p style="margin-top: 14px; font-size: 0.95rem; color: var(--text-main); line-height: 1.6;">
+        {{ session_data.metrics.emotion_interpretation }}
+    </p>
+</div>
+
+<!-- What's Your Audience Talking About? (Topic & Keyword Extraction) -->
+<div class="card">
+    <div class="card-header">
+        <div>
+            <h3 class="card-title">
+                <span>💬 What's Your Audience Talking About?</span>
+            </h3>
+            <p class="card-subtitle">Top topics, recurring themes, and keywords extracted dynamically from this video's comments</p>
+        </div>
+    </div>
+
+    {% if session_data.topics and session_data.topics|length > 0 %}
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; padding: 6px 0;">
+        {% for t in session_data.topics %}
+        <div style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 16px; background: var(--bg-card-subtle); border: 1px solid var(--border-color); border-radius: var(--radius-full); font-size: 0.875rem; font-weight: 600; color: var(--text-main); transition: var(--transition);">
+            <span>#{{ t.topic }}</span>
+            <span style="font-size: 0.725rem; font-weight: 700; background: var(--primary-light); color: var(--primary); padding: 2px 7px; border-radius: var(--radius-full);">
+                {{ t.count }} mentions
+            </span>
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <p style="color: var(--text-muted); font-size: 0.9rem;">Topic frequency patterns will populate as comments are analyzed.</p>
+    {% endif %}
+</div>
+
+<!-- Best Comments Preview Grid -->
+<div class="card">
+    <div class="card-header">
+        <div>
+            <h3 class="card-title">
+                <span>🏆 Top Comments from This Video</span>
+            </h3>
+            <p class="card-subtitle">Intelligently ranked by quality, sentiment strength, and engagement</p>
+        </div>
+        <a href="/top-comments?session_id={{ session_data.session_id }}" class="btn btn-secondary btn-sm">
+            View All Top Comments ({{ session_data.best_comments|length }}) →
+        </a>
+    </div>
+
+    <div class="comment-card-list">
+        {% for comment in session_data.best_comments[:3] %}
+        <div class="comment-card featured-gold">
+            <div class="comment-header">
+                <div class="comment-author-wrap">
+                    <div class="comment-avatar">👤</div>
+                    <div>
+                        <span class="comment-author">{{ comment.author }}</span>
+                        <span class="comment-date"> • {{ comment.published_at }}</span>
+                    </div>
+                </div>
+                <div class="comment-tags">
+                    <span class="badge badge-positive">{{ comment.sentiment }}</span>
+                    <span class="badge badge-quality-excellent">Quality: {{ comment.quality.quality_score }}/100</span>
+                    <span class="badge badge-constructive">{{ comment.quality.feedback_type }}</span>
+                </div>
+            </div>
+
+            <p class="comment-text">"{{ comment.comment_text }}"</p>
+
+            <div class="comment-footer">
+                <div style="font-size: 0.8rem; color: var(--text-muted); display: flex; align-items: center; gap: 12px;">
+                    <span>👍 {{ comment.likes }} likes</span>
+                    <span>Primary Emotion: <strong style="text-transform: capitalize; color: var(--primary);">{{ comment.primary_emotion }}</strong></span>
+                </div>
+                <div class="comment-actions">
+                    <button class="btn btn-secondary btn-sm" onclick="App.copyCommentText(`{{ comment.comment_text|escape }}`)">
+                        📋 Copy
+                    </button>
+                    <button class="btn btn-primary btn-sm" onclick='App.openCommentModal({{ comment|tojson }})'>
+                        🔍 View Detail
+                    </button>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Quick AI Insights Banner -->
+<div class="card" style="background: var(--bg-card);">
+    <div class="card-header">
+        <div>
+            <h3 class="card-title">
+                <span>💡 Dynamic Video Insights</span>
+            </h3>
+            <p class="card-subtitle">Calculated automatically from this video's audience dialogue</p>
+        </div>
+        <a href="/insights?session_id={{ session_data.session_id }}" class="btn btn-secondary btn-sm">
+            Full Insights & Strategy →
+        </a>
+    </div>
+
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+        <div class="insight-box theme-emerald">
+            <div class="insight-title" style="color: var(--success);">
+                <span>❤️ What Viewers Loved</span>
+            </div>
+            <ul class="insight-list">
+                {% for item in session_data.insights.what_viewers_loved[:3] %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="insight-box theme-amber">
+            <div class="insight-title" style="color: var(--warning);">
+                <span>⚠️ Common Friction Points</span>
+            </div>
+            <ul class="insight-list">
+                {% for item in session_data.insights.common_complaints[:3] %}
+                <li>{{ item }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="insight-box theme-purple">
+            <div class="insight-title" style="color: var(--purple);">
+                <span>🚀 Content Recommendation</span>
+            </div>
+            <p style="font-size: 0.9rem; line-height: 1.5; color: var(--text-main);">
+                {{ session_data.insights.recommendations[0] if session_data.insights.recommendations else "Maintain current video pacing and hands-on coding walkthroughs." }}
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Initialize Sentiment Donut
+        AppCharts.initSentimentDonut(
+            'sentimentDonutChart',
+            {{ session_data.metrics.positive_percentage }},
+            {{ session_data.metrics.neutral_percentage }},
+            {{ session_data.metrics.negative_percentage }}
+        );
+
+        // Initialize Emotion Horizontal Bars
+        const emotionTotals = {{ session_data.metrics.emotion_totals|tojson }};
+        AppCharts.initEmotionBars('emotionBarsChart', emotionTotals);
+    });
+</script>
+{% endblock %}

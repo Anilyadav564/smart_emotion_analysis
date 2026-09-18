@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+
+{% block title %}Analysis History | Comment AI{% endblock %}
+
+{% block content %}
+<div class="page-header-bar">
+    <div>
+        <h1 class="page-heading">Analysis History & Saved Sessions</h1>
+        <p class="page-subheading">Review past YouTube video intelligence sessions or inspect individual text sentiment logs.</p>
+    </div>
+
+    <div class="action-buttons-group">
+        <a href="/youtube-comments" class="btn btn-primary btn-sm">
+            <span>📥 Analyze New Video</span>
+        </a>
+    </div>
+</div>
+
+<div class="card">
+    <!-- Tabs Header -->
+    <div class="tabs-header">
+        <button type="button" class="tab-btn active" data-target="tabSessions">
+            📊 Analyzed YouTube Videos ({{ sessions|length }})
+        </button>
+        <button type="button" class="tab-btn" data-target="tabSingleText">
+            📝 Single Text Analyses ({{ single_text_history|length }})
+        </button>
+    </div>
+
+    <!-- TAB 1: YouTube Sessions -->
+    <div id="tabSessions" class="tab-content" style="display: block;">
+        {% if sessions and sessions|length > 0 %}
+        <div class="table-responsive">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Video</th>
+                        <th>Channel / Date</th>
+                        <th>Comments</th>
+                        <th>Positive %</th>
+                        <th>Toxicity %</th>
+                        <th>Avg Quality</th>
+                        <th>Dominant Emotion</th>
+                        <th style="text-align: right;">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for s in sessions %}
+                    <tr>
+                        <td style="min-width: 240px;">
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                {% if s.thumbnail_url %}
+                                <img src="{{ s.thumbnail_url }}" alt="thumb" style="width: 54px; height: 34px; object-fit: cover; border-radius: 4px; flex-shrink: 0;" />
+                                {% else %}
+                                <div style="width: 54px; height: 34px; background: var(--bg-card-subtle); border-radius: 4px; display: flex; align-items: center; justify-content: center; font-size: 1rem; flex-shrink: 0;">
+                                    ▶
+                                </div>
+                                {% endif %}
+                                <div>
+                                    <a href="/dashboard?session_id={{ s.session_id }}" style="color: var(--primary); font-weight: 600; line-height: 1.3; display: block;">
+                                        {{ s.video_title }}
+                                    </a>
+                                    {% if s.video_id %}
+                                    <span style="font-size: 0.725rem; color: var(--text-muted); font-family: monospace;">ID: {{ s.video_id }}</span>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </td>
+                        <td style="white-space: nowrap;">
+                            <strong style="font-size: 0.85rem; display: block;">{{ s.channel_name }}</strong>
+                            <span style="font-size: 0.75rem; color: var(--text-muted);">{{ s.timestamp }}</span>
+                        </td>
+                        <td><strong>{{ s.total_comments }}</strong></td>
+                        <td><span class="badge badge-positive">{{ s.positive_percentage }}%</span></td>
+                        <td>
+                            <span class="badge {% if s.toxicity_percentage > 5.0 %}badge-toxic{% else %}badge-positive{% endif %}">
+                                {{ s.toxicity_percentage }}%
+                            </span>
+                        </td>
+                        <td><span class="badge badge-quality-good">{{ s.average_quality }}/100</span></td>
+                        <td style="text-transform: capitalize; font-weight: 600;">{{ s.dominant_emotion }}</td>
+                        <td style="text-align: right; white-space: nowrap;">
+                            <a href="/dashboard?session_id={{ s.session_id }}" class="btn btn-secondary btn-sm" style="padding: 4px 8px;">
+                                View
+                            </a>
+                            <a href="/api/export/{{ s.session_id }}?format=csv" class="btn btn-secondary btn-sm" style="padding: 4px 8px;">
+                                CSV
+                            </a>
+                            <button type="button" class="btn btn-danger btn-sm" style="padding: 4px 8px;" onclick="App.deleteSession('{{ s.session_id }}')">
+                                Delete
+                            </button>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <div style="text-align: center; padding: 48px 20px; color: var(--text-muted);">
+            <div style="font-size: 2rem; margin-bottom: 10px;">📂</div>
+            <p style="font-weight: 600; font-size: 1rem; margin-bottom: 6px;">No saved YouTube video sessions yet.</p>
+            <p style="font-size: 0.85rem; margin-bottom: 16px;">Analyze a YouTube video URL or try demo data to create your first session.</p>
+            <a href="/youtube-comments" class="btn btn-primary btn-sm">
+                Analyze a YouTube Video
+            </a>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- TAB 2: Single Text History -->
+    <div id="tabSingleText" class="tab-content" style="display: none;">
+        {% if single_text_history and single_text_history|length > 0 %}
+        <div class="table-responsive">
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Timestamp</th>
+                        <th>Text Snippet</th>
+                        <th>Primary Emotion</th>
+                        <th>Sentiment</th>
+                        <th>Compound Score</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in single_text_history %}
+                    <tr>
+                        <td style="white-space: nowrap; font-size: 0.8rem; color: var(--text-muted);">{{ item.timestamp }}</td>
+                        <td>
+                            <div class="table-comment-text" title="{{ item.original_text }}">
+                                {{ item.original_text }}
+                            </div>
+                        </td>
+                        <td style="text-transform: capitalize; font-weight: 600;">{{ item.primary_emotion }}</td>
+                        <td>
+                            <span class="badge {% if item.sentiment == 'Positive' %}badge-positive{% elif item.sentiment == 'Negative' %}badge-negative{% else %}badge-neutral{% endif %}">
+                                {{ item.sentiment }}
+                            </span>
+                        </td>
+                        <td style="font-weight: 600;">{{ item.sentiment_scores.compound if item.sentiment_scores else 'N/A' }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% else %}
+        <div style="text-align: center; padding: 48px 20px; color: var(--text-muted);">
+            <p>No individual text analyses recorded in <code>data/analysis_history.json</code> yet.</p>
+        </div>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}

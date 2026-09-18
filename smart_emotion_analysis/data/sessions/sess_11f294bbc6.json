@@ -1,0 +1,688 @@
+{
+  "session_id": "sess_11f294bbc6",
+  "video_id": "vid_pythn_2",
+  "video_title": "Python Machine Learning Masterclass",
+  "channel_name": "Corey MS",
+  "video_info": {
+    "video_id": "vid_pythn_2",
+    "title": "Python Machine Learning Masterclass",
+    "channel_title": "Corey MS",
+    "thumbnail_url": "https://i.ytimg.com/vi/vid_pythn_2/hqdefault.jpg",
+    "view_count": 280000,
+    "like_count": 14000,
+    "comment_count": 3
+  },
+  "timestamp": "2026-09-08 14:44:11",
+  "total_comments": 3,
+  "metrics": {
+    "total_comments": 3,
+    "positive_count": 0,
+    "positive_percentage": 0.0,
+    "neutral_count": 2,
+    "neutral_percentage": 66.7,
+    "negative_count": 1,
+    "negative_percentage": 33.3,
+    "toxic_count": 0,
+    "toxicity_percentage": 0.0,
+    "constructive_count": 3,
+    "constructive_percentage": 100.0,
+    "average_quality": 73.0,
+    "dominant_emotion": "neutral",
+    "dominant_emotion_percentage": 100.0,
+    "emotion_totals": {
+      "happiness": 0,
+      "sadness": 0,
+      "anger": 0,
+      "fear": 0,
+      "surprise": 0,
+      "neutral": 3
+    },
+    "emotion_interpretation": "Audience response was largely objective and analytical, with Neutral/Informational commentary dominating. Overall positive sentiment stands at 0.0%, reflecting practical, constructive dialogue."
+  },
+  "topics": [
+    {
+      "topic": "Step",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Fast",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Explain",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Gradient",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Descent",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Algorithm",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Provide",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Github",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Link",
+      "count": 1,
+      "type": "word"
+    },
+    {
+      "topic": "Training",
+      "count": 1,
+      "type": "word"
+    }
+  ],
+  "insights": {
+    "audience_mood": "Critical audience reception (33.3% negative vs 0.0% positive). Significant friction detected in content delivery or topic reception.",
+    "mood_status": "Attention Needed",
+    "what_viewers_loved": [
+      "Overall tutorial quality, guidance, and helpful insights."
+    ],
+    "common_complaints": [
+      "Pacing in certain intermediate steps felt rushed for beginners",
+      "Requests for direct source code, repository links, or starter files",
+      "Setup / environment dependency issues experienced by viewers"
+    ],
+    "potential_problems": [
+      "Zero detected toxicity! Comment section community health is exemplary.",
+      "High negative sentiment (33.3%): Audience confusion or discontent indicates a need for pinned clarification comments."
+    ],
+    "recommendations": [
+      "Pin a comment with links to the GitHub repository, dependencies list, and documentation."
+    ]
+  },
+  "best_comments": [
+    {
+      "comment_id": "c4",
+      "author": "DevA",
+      "comment_text": "Step 3 at 08:45 was too fast. Could you explain the gradient descent algorithm next time?",
+      "cleaned_text": "step at was too fast could you explain the gradient descent algorithm next time",
+      "likes": 85,
+      "reply_count": 0,
+      "published_at": "2026-02-01",
+      "updated_at": "",
+      "video_id": "vid_pythn_2",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 87,
+        "quality_grade": "Good",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 73.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c5",
+      "author": "DevB",
+      "comment_text": "Can you provide the GitHub link for the training dataset?",
+      "cleaned_text": "can you provide the github link for the training dataset",
+      "likes": 40,
+      "reply_count": 0,
+      "published_at": "2026-02-01",
+      "updated_at": "",
+      "video_id": "vid_pythn_2",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 75,
+        "quality_grade": "Good",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 66.7,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c6",
+      "author": "DevC",
+      "comment_text": "I am getting a numpy syntax error on line 42, please clarify.",
+      "cleaned_text": "i am getting a numpy syntax error on line please clarify",
+      "likes": 12,
+      "reply_count": 0,
+      "published_at": "2026-02-01",
+      "updated_at": "",
+      "video_id": "vid_pythn_2",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.225,
+        "neu": 0.583,
+        "pos": 0.192,
+        "compound": -0.1027
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 57,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 54.9,
+      "is_favorite": false
+    }
+  ],
+  "constructive_comments": [
+    {
+      "comment_id": "c4",
+      "author": "DevA",
+      "comment_text": "Step 3 at 08:45 was too fast. Could you explain the gradient descent algorithm next time?",
+      "cleaned_text": "step at was too fast could you explain the gradient descent algorithm next time",
+      "likes": 85,
+      "reply_count": 0,
+      "published_at": "2026-02-01",
+      "updated_at": "",
+      "video_id": "vid_pythn_2",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 87,
+        "quality_grade": "Good",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 73.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c5",
+      "author": "DevB",
+      "comment_text": "Can you provide the GitHub link for the training dataset?",
+      "cleaned_text": "can you provide the github link for the training dataset",
+      "likes": 40,
+      "reply_count": 0,
+      "published_at": "2026-02-01",
+      "updated_at": "",
+      "video_id": "vid_pythn_2",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 75,
+        "quality_grade": "Good",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 66.7,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c6",
+      "author": "DevC",
+      "comment_text": "I am getting a numpy syntax error on line 42, please clarify.",
+      "cleaned_text": "i am getting a numpy syntax error on line please clarify",
+      "likes": 12,
+      "reply_count": 0,
+      "published_at": "2026-02-01",
+      "updated_at": "",
+      "video_id": "vid_pythn_2",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.225,
+        "neu": 0.583,
+        "pos": 0.192,
+        "compound": -0.1027
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 57,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 54.9,
+      "is_favorite": false
+    }
+  ],
+  "most_engaged": [
+    {
+      "comment_id": "c4",
+      "author": "DevA",
+      "comment_text": "Step 3 at 08:45 was too fast. Could you explain the gradient descent algorithm next time?",
+      "cleaned_text": "step at was too fast could you explain the gradient descent algorithm next time",
+      "likes": 85,
+      "reply_count": 0,
+      "published_at": "2026-02-01",
+      "updated_at": "",
+      "video_id": "vid_pythn_2",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 87,
+        "quality_grade": "Good",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 73.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c5",
+      "author": "DevB",
+      "comment_text": "Can you provide the GitHub link for the training dataset?",
+      "cleaned_text": "can you provide the github link for the training dataset",
+      "likes": 40,
+      "reply_count": 0,
+      "published_at": "2026-02-01",
+      "updated_at": "",
+      "video_id": "vid_pythn_2",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 75,
+        "quality_grade": "Good",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 66.7,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c6",
+      "author": "DevC",
+      "comment_text": "I am getting a numpy syntax error on line 42, please clarify.",
+      "cleaned_text": "i am getting a numpy syntax error on line please clarify",
+      "likes": 12,
+      "reply_count": 0,
+      "published_at": "2026-02-01",
+      "updated_at": "",
+      "video_id": "vid_pythn_2",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.225,
+        "neu": 0.583,
+        "pos": 0.192,
+        "compound": -0.1027
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 57,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 54.9,
+      "is_favorite": false
+    }
+  ],
+  "most_positive": [],
+  "negative_comments": {
+    "constructive_criticism": [
+      {
+        "comment_id": "c6",
+        "author": "DevC",
+        "comment_text": "I am getting a numpy syntax error on line 42, please clarify.",
+        "cleaned_text": "i am getting a numpy syntax error on line please clarify",
+        "likes": 12,
+        "reply_count": 0,
+        "published_at": "2026-02-01",
+        "updated_at": "",
+        "video_id": "vid_pythn_2",
+        "sentiment": "Negative",
+        "sentiment_scores": {
+          "neg": 0.225,
+          "neu": 0.583,
+          "pos": 0.192,
+          "compound": -0.1027
+        },
+        "primary_emotion": "neutral",
+        "emotion_scores": {
+          "happiness": 0,
+          "sadness": 0,
+          "anger": 0,
+          "fear": 0,
+          "surprise": 0,
+          "neutral": 1
+        },
+        "toxicity": {
+          "is_toxic": false,
+          "toxicity_score": 0.0,
+          "status": "Safe",
+          "categories": [],
+          "primary_category": "Non-toxic"
+        },
+        "quality": {
+          "quality_score": 57,
+          "quality_grade": "Average",
+          "is_constructive": true,
+          "feedback_type": "Constructive Feedback",
+          "explanation": "Actionable critique or improvement suggestion with specific context."
+        },
+        "best_score": 54.9,
+        "is_favorite": false
+      }
+    ],
+    "critical_complaints": [],
+    "toxic_comments": []
+  },
+  "toxic_comments": [],
+  "comments": [
+    {
+      "comment_id": "c4",
+      "author": "DevA",
+      "comment_text": "Step 3 at 08:45 was too fast. Could you explain the gradient descent algorithm next time?",
+      "cleaned_text": "step at was too fast could you explain the gradient descent algorithm next time",
+      "likes": 85,
+      "reply_count": 0,
+      "published_at": "2026-02-01",
+      "updated_at": "",
+      "video_id": "vid_pythn_2",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 87,
+        "quality_grade": "Good",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 73.4,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c5",
+      "author": "DevB",
+      "comment_text": "Can you provide the GitHub link for the training dataset?",
+      "cleaned_text": "can you provide the github link for the training dataset",
+      "likes": 40,
+      "reply_count": 0,
+      "published_at": "2026-02-01",
+      "updated_at": "",
+      "video_id": "vid_pythn_2",
+      "sentiment": "Neutral",
+      "sentiment_scores": {
+        "neg": 0.0,
+        "neu": 1.0,
+        "pos": 0.0,
+        "compound": 0.0
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 75,
+        "quality_grade": "Good",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 66.7,
+      "is_favorite": false
+    },
+    {
+      "comment_id": "c6",
+      "author": "DevC",
+      "comment_text": "I am getting a numpy syntax error on line 42, please clarify.",
+      "cleaned_text": "i am getting a numpy syntax error on line please clarify",
+      "likes": 12,
+      "reply_count": 0,
+      "published_at": "2026-02-01",
+      "updated_at": "",
+      "video_id": "vid_pythn_2",
+      "sentiment": "Negative",
+      "sentiment_scores": {
+        "neg": 0.225,
+        "neu": 0.583,
+        "pos": 0.192,
+        "compound": -0.1027
+      },
+      "primary_emotion": "neutral",
+      "emotion_scores": {
+        "happiness": 0,
+        "sadness": 0,
+        "anger": 0,
+        "fear": 0,
+        "surprise": 0,
+        "neutral": 1
+      },
+      "toxicity": {
+        "is_toxic": false,
+        "toxicity_score": 0.0,
+        "status": "Safe",
+        "categories": [],
+        "primary_category": "Non-toxic"
+      },
+      "quality": {
+        "quality_score": 57,
+        "quality_grade": "Average",
+        "is_constructive": true,
+        "feedback_type": "Constructive Feedback",
+        "explanation": "Actionable critique or improvement suggestion with specific context."
+      },
+      "best_score": 54.9,
+      "is_favorite": false
+    }
+  ]
+}
